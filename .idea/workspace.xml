@@ -1,169 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f0d44ba-673b-4350-b49f-518b7fc17e70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/About/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Landing/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NavBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ProductionDetail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Productions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Projects/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/productions/[slug].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/productions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/projects/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/productions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/publications.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/common/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/common/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/common/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/common/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/common/newsletter-subscription.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/common/no-items.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/common/portrait.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/authentication-in-next-js-with-strapi-and-next-auth/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/authentication-in-next-js-with-strapi-and-next-auth/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/authentication-in-next-js-with-strapi-and-next-auth/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/hasura-nextjs-boilerplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/strapi-nextjs-boilerplate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/understanding-component-oriented-styling-using-styletron/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/understanding-component-oriented-styling-using-styletron/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/using-mirage-js-to-jumpstart-your-frontend-development/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/destbv/Schermafbeelding-2020-03-06-om-18.41.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/destbv/Schermafbeelding-2020-03-06-om-18.42.14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/destbv/dest_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.20.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.21.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.21.40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.22.13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/dyade/dyade_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.22.48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.23.12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.23.33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.28.23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/lashit/Schermafbeelding-2019-12-03-om-14.30.52 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/lashit/Schermafbeelding-2019-12-03-om-14.30.52.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/lashit/Schermafbeelding-2019-12-03-om-14.31.12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/lashit/lashit_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.15.27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.15.54.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.16.03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.16.21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.16.31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/magnificent_hairextensions.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.25.46.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.25.57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.26.02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.26.08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.26.23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.32.25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.32.36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.32.53.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.33.07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/oliekan/oliekan_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_thumbnail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/womenonstage/Schermafbeelding-2019-12-03-om-14.35.51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/womenonstage/Schermafbeelding-2019-12-03-om-14.35.57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/womenonstage/Schermafbeelding-2019-12-03-om-14.36.03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/productions/womenonstage/womenonstage_thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-    </list>
+    <list default="true" id="5f0d44ba-673b-4350-b49f-518b7fc17e70" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/data/productions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            <state relative-caret-position="460">
+              <caret line="160" column="27" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -381,26 +219,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615606646119</updated>
-      <workItem from="1615606647398" duration="23537000" />
+      <workItem from="1615606647398" duration="23934000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23537000" />
+    <option name="totallyTimeSpent" value="23934000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="982" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4351064" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
@@ -708,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/data/productions.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <state relative-caret-position="460">
+          <caret line="160" column="27" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
         </state>
       </provider>
     </entry>
