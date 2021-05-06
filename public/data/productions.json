@@ -29,10 +29,10 @@
       "PHP"
     ],
     "gallery": [
-      "/images/productions/softwaresuite/softwaresuite_01.png",
-      "/images/productions/softwaresuite/softwaresuite_02.png",
-      "/images/productions/softwaresuite/softwaresuite_03.png",
-      "/images/productions/softwaresuite/softwaresuite_04.png"
+      "/images/productions/dyade/dyade_01.png",
+      "/images/productions/dyade/dyade_02.png",
+      "/images/productions/dyade/dyade_03.png",
+      "/images/productions/dyade/dyade_04.png"
     ]
   },
   {
@@ -41,16 +41,14 @@
     "imageUrl": "/images/productions/destbv/dest_thumbnail.jpg",
     "url": "https://www.softwaresuite.nl/",
     "type": "Website",
-    "slug": "dyade",
+    "slug": "destbv",
     "technologies": [
       "Wordpress",
       "PHP"
     ],
     "gallery": [
-      "/images/productions/softwaresuite/softwaresuite_01.png",
-      "/images/productions/softwaresuite/softwaresuite_02.png",
-      "/images/productions/softwaresuite/softwaresuite_03.png",
-      "/images/productions/softwaresuite/softwaresuite_04.png"
+      "/images/productions/destbv/dest_01.png",
+      "/images/productions/destbv/dest_02.png"
     ]
   },
   {
@@ -65,10 +63,10 @@
       "PHP"
     ],
     "gallery": [
-      "/images/productions/softwaresuite/softwaresuite_01.png",
-      "/images/productions/softwaresuite/softwaresuite_02.png",
-      "/images/productions/softwaresuite/softwaresuite_03.png",
-      "/images/productions/softwaresuite/softwaresuite_04.png"
+      "/images/productions/internetinbeeld/internetinbeeld_01.png",
+      "/images/productions/internetinbeeld/internetinbeeld_02.png",
+      "/images/productions/internetinbeeld/internetinbeeld_03.png",
+      "/images/productions/internetinbeeld/internetinbeeld_04.png"
     ]
   },
   {
@@ -83,10 +81,9 @@
       "PHP"
     ],
     "gallery": [
-      "/images/productions/softwaresuite/softwaresuite_01.png",
-      "/images/productions/softwaresuite/softwaresuite_02.png",
-      "/images/productions/softwaresuite/softwaresuite_03.png",
-      "/images/productions/softwaresuite/softwaresuite_04.png"
+      "/images/productions/lashit/lashit_01.png",
+      "/images/productions/lashit/lashit_02.png",
+      "/images/productions/lashit/lashit_03.png"
     ]
   },
   {
@@ -119,10 +116,11 @@
       "PHP"
     ],
     "gallery": [
-      "/images/productions/softwaresuite/softwaresuite_01.png",
-      "/images/productions/softwaresuite/softwaresuite_02.png",
-      "/images/productions/softwaresuite/softwaresuite_03.png",
-      "/images/productions/softwaresuite/softwaresuite_04.png"
+      "/images/productions/mooibygerda/mooibygerda_01.png",
+      "/images/productions/mooibygerda/mooibygerda_02.png",
+      "/images/productions/mooibygerda/mooibygerda_03.png",
+      "/images/productions/mooibygerda/mooibygerda_04.png",
+      "/images/productions/mooibygerda/mooibygerda_05.png"
     ]
   },
   {

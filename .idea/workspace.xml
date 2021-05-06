@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0d44ba-673b-4350-b49f-518b7fc17e70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/productions.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/data/productions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/common/portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/common/portrait.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/destbv/Schermafbeelding-2020-03-06-om-18.41.48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/destbv/dest_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/destbv/Schermafbeelding-2020-03-06-om-18.42.14.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/destbv/dest_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.20.48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/dyade/dyade_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.21.01.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/dyade/dyade_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.21.40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/dyade/dyade_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/Schermafbeelding-2020-03-07-om-16.22.13.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/dyade/dyade_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.22.48.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.23.12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.23.33.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/Schermafbeelding-2020-05-02-om-06.28.23.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/lashit/Schermafbeelding-2019-12-03-om-14.30.52 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/lashit/lashit_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/lashit/Schermafbeelding-2019-12-03-om-14.30.52.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/lashit/lashit_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/lashit/Schermafbeelding-2019-12-03-om-14.31.12.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/lashit/lashit_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.25.46.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.25.57.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.26.02.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.26.08.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/Schermafbeelding-2020-08-03-om-23.26.23.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_05.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,42 +31,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.js">
+        <entry file="file://$PROJECT_DIR$/components/Projects/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="-767">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#114#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Landing/index.js">
+        <entry file="file://$PROJECT_DIR$/components/ProductionDetail/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/data/productions.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2400">
-              <caret line="160" column="27" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+            <state relative-caret-position="192">
+              <caret line="29" column="48" selection-start-line="29" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/public/data/productions.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="381">
+              <caret line="122" column="58" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -104,8 +118,8 @@
         <option value="$PROJECT_DIR$/pages/projects/index.js" />
         <option value="$PROJECT_DIR$/components/Landing/index.js" />
         <option value="$PROJECT_DIR$/components/NavBar/index.js" />
-        <option value="$PROJECT_DIR$/public/data/productions.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/data/productions.json" />
       </list>
     </option>
   </component>
@@ -127,17 +141,6 @@
             <path>
               <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
               <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="NavBar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
@@ -176,7 +179,7 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="productions" type="462c0819:PsiDirectoryNode" />
-              <item name="womenonstage" type="462c0819:PsiDirectoryNode" />
+              <item name="mooibygerda" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,19 +197,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/common" />
+      <recent name="$PROJECT_DIR$/public/images/productions/destbv" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/components/About" />
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/common" />
       <recent name="$PROJECT_DIR$/public/images/productions/womenonstage" />
       <recent name="$PROJECT_DIR$/public/images/productions/magnificenthairextensions" />
       <recent name="$PROJECT_DIR$/public/images/productions/internetinbeeld" />
       <recent name="$PROJECT_DIR$/public/images/productions/dyade" />
-      <recent name="$PROJECT_DIR$/public/images/productions/destbv" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images/productions/destbv" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/images/common" />
-      <recent name="$PROJECT_DIR$/components/About" />
-      <recent name="$PROJECT_DIR$/pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -231,27 +234,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615606646119</updated>
-      <workItem from="1615606647398" duration="25036000" />
+      <workItem from="1615606647398" duration="25419000" />
+      <workItem from="1620319352845" duration="1553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25036000" />
+    <option name="totallyTimeSpent" value="26972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1680" height="1022" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" weight="0.32959184" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3392857" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -259,11 +257,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3392857" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,71 +277,18 @@
     <entry file="file://$PROJECT_DIR$/pages/api/hello.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/layouts/LandingLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/components/layouts/LandingLayout.js" />
+    <entry file="file://$PROJECT_DIR$/utils/theme.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4022" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/sections/Hero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ui/Logo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/sections/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/mdx/link.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/pages/about/base/index.tsx">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/components/sections/Hero.js" />
+    <entry file="file://$PROJECT_DIR$/components/ui/Logo.js" />
+    <entry file="file://$PROJECT_DIR$/components/sections/Header.js" />
+    <entry file="file://$PROJECT_DIR$/components/mdx/link.tsx" />
+    <entry file="file://$PROJECT_DIR$/components/pages/about/base/index.tsx" />
     <entry file="file://$PROJECT_DIR$/pages/_app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -348,91 +299,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/pages/projects/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="6" selection-start-column="17" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/pages/projects/base/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/layouts/projects/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-end-line="135" />
-          <folding>
-            <element signature="e#0#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/footer/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/pages/articles/[slug].tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-407">
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/pages/guides/[slug]/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="50" selection-start-line="50" selection-end-line="59" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/productions/[slug]/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/productions/[slug].js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/ProductionDetail/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="48" selection-start-line="29" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/pages/projects/index.tsx" />
+    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/pages/projects/base/index.tsx" />
+    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/layouts/projects/index.tsx" />
+    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/footer/index.tsx" />
+    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/pages/articles/[slug].tsx" />
+    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/pages/guides/[slug]/index.tsx" />
+    <entry file="file://$PROJECT_DIR$/pages/productions/[slug]/index.js" />
     <entry file="file://$PROJECT_DIR$/pages/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -450,36 +323,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Projects/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Productions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="92" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/projects/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -490,12 +333,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/common/avatar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/common/cover.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/common/avatar.png" />
+    <entry file="file://$PROJECT_DIR$/public/images/common/cover.jpg" />
     <entry file="file://$PROJECT_DIR$/public/images/common/favicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -505,23 +344,7 @@
     <entry file="file://$PROJECT_DIR$/public/images/common/logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/navbar/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/productions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/navbar/index.tsx" />
     <entry file="file://$PROJECT_DIR$/components/NavBar/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
@@ -542,6 +365,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/Landing/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -549,17 +382,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/data/productions.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="160" column="27" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/components/Productions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="519">
+          <caret line="38" column="92" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/productions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/productions/[slug].js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Projects/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-767">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/ProductionDetail/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="29" column="48" selection-start-line="29" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/productions/lashit/lashit_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/productions/lashit/lashit_02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/data/productions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="122" column="58" selection-start-line="122" selection-start-column="58" selection-end-line="122" selection-end-column="58" />
         </state>
       </provider>
     </entry>
