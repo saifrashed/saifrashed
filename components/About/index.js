@@ -89,7 +89,7 @@ const About = () => {
                                                             </ListItem>
                                                             <ListItem>
                                                                 <ListIcon as={IoIosBuild} color="green.500" />
-                                                                Saif Rashed Software (ZZP) - Applicatie ontwikkelaar
+                                                                Vorm Technologies (ZZP) - Applicatie ontwikkelaar
                                                                 2020
                                                             </ListItem>
                                                         </List>

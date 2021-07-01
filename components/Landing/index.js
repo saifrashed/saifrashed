@@ -35,7 +35,7 @@ export default function StatsGridWithImage() {
                                 <Text fontSize={'xl'}>
                                     Hallo, wat leuk dat je op mijn website kijkt! De knoppen hieronder zullen u
                                     rondleiden
-                                    en als u interesse heeft kunt u mij altijd bereiken via <b>info@saifrashed.nl</b>
+                                    en als u interesse heeft kunt u mij altijd bereiken via <b>saifeddinerashed@icloud.com</b>
                                 </Text>
                             </Box>
 
