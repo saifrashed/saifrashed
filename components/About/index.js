@@ -43,7 +43,7 @@ const About = () => {
                                                     <h2>
                                                         <AccordionButton>
                                                             <Box flex="1" textAlign="left">
-                                                                Vaardigheden
+                                                                Vaardigheden🔬
                                                             </Box>
                                                             <AccordionIcon/>
                                                         </AccordionButton>
@@ -70,7 +70,7 @@ const About = () => {
                                                     <h2>
                                                         <AccordionButton>
                                                             <Box flex="1" textAlign="left">
-                                                                Ervaringen
+                                                                Ervaringen 👁️
                                                             </Box>
                                                             <AccordionIcon/>
                                                         </AccordionButton>
@@ -100,7 +100,7 @@ const About = () => {
                                                     <h2>
                                                         <AccordionButton>
                                                             <Box flex="1" textAlign="left">
-                                                                Studies
+                                                                Studies 📚
                                                             </Box>
                                                             <AccordionIcon/>
                                                         </AccordionButton>

@@ -15,7 +15,7 @@ const Footer = () => {
                     <HStack spacing={2}>
                         <Box p={4}>
                             <Text fontSize="sm">
-                                Copyright &copy; {new Date().getFullYear()} Saif Rashed
+                                Copyright  &copy; {new Date().getFullYear()} Saif Rashed
                             </Text>
                         </Box>
                     </HStack>

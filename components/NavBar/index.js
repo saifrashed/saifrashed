@@ -11,10 +11,6 @@ const LINKS = [
         title: "Projecten",
     },
     {
-        url:   "/productions",
-        title: "Producties",
-    },
-    {
         url:   "/about",
         title: "Over mij",
     },

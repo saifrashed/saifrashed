@@ -33,9 +33,9 @@ const Projects = ({projects = []}) => {
             <Box>
                 <VStack spacing={2} align="left">
                     <Heading as="h1" size="xl">
-                        Projecten
+                        Projecten 🛠️
                     </Heading>
-                    <Text>Open Source Projecten ontwikkeld en beschikbaar op Github</Text>
+                    <Text>Mijn verschillende projecten, beschikbaar op Github</Text>
                 </VStack>
             </Box>
         );

@@ -8,7 +8,7 @@ const AboutPage = () => {
         <>
             <NavBar/>
             <Head>
-                <title>Over mij</title>
+                <title>Over mij 🙋‍♂</title>
             </Head>
             <About/>
             <Footer/>

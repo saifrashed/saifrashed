@@ -11,7 +11,7 @@ const ProjectsIndexPage = ({projects = []}) => {
             <NavBar/>
 
             <Head>
-                <title>Projecten</title>
+                <title>Projecten 🛠️</title>
             </Head>
 
             <Box maxW="6xl" mx="auto" px={4} py={8}>
