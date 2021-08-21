@@ -1,100 +1,38 @@
-import {border, Box, Button, HStack, IconButton, Link as _Link, Menu, MenuButton, MenuItem, MenuList, useColorMode, Text} from "@chakra-ui/react";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import {Avatar, Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, HStack, IconButton, Menu, MenuButton, MenuItem, MenuList, SimpleGrid, useColorMode, useColorModeValue, useDisclosure, VStack} from "@chakra-ui/react";
+import Link from "next/link";
 import {IoMdMoon, IoMdSunny} from "react-icons/io";
+import {ChevronDownIcon, HamburgerIcon} from "@chakra-ui/icons";
+import Container from "../container";
+import useSound from "use-sound";
 
-
-const LINKS = [
-    {
-        url:   "/projects",
-        title: "Projecten",
-    },
-    {
-        url:   "/about",
-        title: "Over mij",
-    },
-];
 
 const Navbar = () => {
     const {colorMode, toggleColorMode} = useColorMode();
     const navbarSectionBgColor         = {light: "white", dark: "gray.900"};
     const navbarSectionColor           = {light: "dark.900", dark: "white"};
     const borderColor                  = {light: "blue.600", dark: "blue.400"};
+    const {isOpen, onOpen, onClose}    = useDisclosure();
+    const [play]                       = useSound("/lightswitch.mp3", {
+        volume: 0.05,
+        sprite: {
+            on:  [0, 300],
+            off: [500, 300],
+        },
+    });
 
-    const themeSwitcherButtonNode = () => {
-        if (colorMode === "light") {
-            return (
-                <IconButton
-                    aria-label="Switch to dark theme"
-                    icon={<IoMdMoon/>}
-                    onClick={toggleColorMode}
-                    variant="ghost"
-                />
-            );
-        }
+    const [playMenuSound] = useSound("/menu-open.mp3", {
+        volume: 0.05
+    });
 
-        return (
-            <IconButton
-                aria-label="Switch to light theme"
-                icon={<IoMdSunny/>}
-                onClick={toggleColorMode}
-                variant="ghost"
-            />
-        );
+
+    const handleThemeColorClick = () => {
+        toggleColorMode();
+        colorMode === "dark" ? play({id: "on"}) : play({id: "off"});
     };
 
-    const mobileMenuNode = () => {
-        return (
-            <Menu>
-                <MenuButton as={Button}>Menu</MenuButton>
-                <MenuList
-                    placement="bottom-end"
-                    bg={navbarSectionBgColor[colorMode]}
-                    color={navbarSectionColor[colorMode]}
-                >
-                    {[
-                        LINKS.map((link) => {
-                            return (
-                                <Box key={link.url}>
-                                    <Link href={link.url}>
-                                        <MenuItem>
-                                            <_Link href={link.url} rounded="md">
-                                                {link.title}
-                                            </_Link>
-                                        </MenuItem>
-                                    </Link>
-                                </Box>
-                            );
-                        }),
-                    ]}
-                    <MenuItem onClick={toggleColorMode} >
-                        Schakel weergave
-                    </MenuItem>
-                </MenuList>
-            </Menu>
-        );
-    };
-
-    const desktopMenuNode = () => {
-        return (
-            <HStack isInline spacing={4} alignItems="center">
-                {[
-                    LINKS.map((link) => {
-                        return (
-                            <Box key={link.url}>
-                                <Link href={link.url}>
-                                    <_Link p={4} href={link.url} rounded="md">
-                                        {link.title}
-                                    </_Link>
-                                </Link>
-                            </Box>
-                        );
-                    }),
-                ]}
-                <Box px={2}>{themeSwitcherButtonNode()}</Box>
-            </HStack>
-        );
+    const handleMenuClick = () => {
+        playMenuSound();
     };
 
     return (
@@ -105,34 +43,203 @@ const Navbar = () => {
             color={navbarSectionColor[colorMode]}
             shadow="md"
             fontWeight="bold"
-            px={4}
-            borderTopWidth={5}
-            borderColor={borderColor[colorMode]}
         >
-            <Box maxW="6xl" mx="auto" px={4}>
-                <HStack justifyContent="space-between" alignItems="center" py={4}>
-                    <Box d="flex" alignItems="center">
-                        <Link href="/">
-                            <_Link href="/" d="flex">
-                                    <Image
-                                        src="/images/common/logo.png"
-                                        alt="Logo"
-                                        height={50}
-                                        width={200}
-                                        quality={100}
-                                        priority
+            <Container>
+                <Box display={["none", "none", "none", "block"]}>
+                    <HStack justifyContent="space-between" alignItems="center" py={4}>
+                        <Box d="flex" alignItems="center">
+                            <Link href="/">
+
+                                <Link href="/">
+                                    <Avatar
+                                        name="Saif Rashed"
+                                        size="md"
+                                        src="/images/common/portrait.jpg"
+                                        cursor="pointer"
                                     />
-                            </_Link>
-                        </Link>
-                    </Box>
-                    <Box display={["none", "none", "none", "block"]}>
-                        {desktopMenuNode()}
-                    </Box>
-                    <Box display={["block", "block", "block", "none"]} px={4}>
-                        {mobileMenuNode()}
-                    </Box>
-                </HStack>
-            </Box>
+                                </Link>
+                            </Link>
+                        </Box>
+                        <Box d="flex" alignItems="center">
+                            <Menu>
+                                <Link href={"/projects"}>
+                                    <Button
+                                        variant="ghost"
+                                        size="md"
+                                        _activeLink={{
+                                            color: useColorModeValue("blue.500", "blue.200"),
+                                        }}
+                                        px={4}
+                                    >
+                                        Projects
+                                    </Button>
+                                </Link>
+                                <Link href={"/about"}>
+                                    <Button
+                                        variant="ghost"
+                                        size="md"
+                                        _activeLink={{
+                                            color: useColorModeValue("blue.500", "blue.200"),
+                                        }}
+                                        px={4}
+                                    >
+                                        About
+                                    </Button>
+                                </Link>
+
+                                <Link href={"/blog"}>
+                                    <Button
+                                        variant="ghost"
+                                        size="md"
+                                        _activeLink={{
+                                            color: useColorModeValue("blue.500", "blue.200"),
+                                        }}
+                                        px={4}
+                                    >
+                                        Blog
+                                    </Button>
+                                </Link>
+                                <MenuButton as={Button} onClick={handleMenuClick} variant="ghost"
+                                            rightIcon={<ChevronDownIcon/>}>
+                                    Links
+                                </MenuButton>
+                                <MenuList>
+                                    <MenuItem minH="48px">
+                                        <span>Books</span>
+                                    </MenuItem>
+                                    <MenuItem minH="40px">
+                                        <span>Tools</span>
+                                    </MenuItem>
+                                </MenuList>
+                            </Menu>
+                        </Box>
+                        <Box px={2}>
+                            <IconButton
+                                aria-label="Switch to light theme"
+                                icon=
+                                    {
+                                        colorMode === "dark" ? (
+                                            <IoMdSunny/>
+                                        ) : (
+                                            <IoMdMoon/>
+                                        )
+
+                                    }
+                                onClick={handleThemeColorClick}
+                                variant="ghost"
+                            />
+                        </Box>
+                    </HStack>
+                </Box>
+                <Box display={["block", "block", "block", "none"]}>
+                    <HStack justifyContent="space-between" alignItems="center" py={4}>
+                        <Box d="flex" alignItems="center">
+                            <Link href="/">
+
+                                <Link href="/">
+                                    <Avatar
+                                        name="Saif Rashed"
+                                        size="md"
+                                        src="/images/common/portrait.jpg"
+                                        cursor="pointer"
+                                    />
+                                </Link>
+                            </Link>
+                        </Box>
+                        <Box d="flex" alignItems="center">
+                            <Box>
+                                <IconButton
+                                    aria-label="Switch to light theme"
+                                    icon=
+                                        {
+                                            colorMode === "dark" ? (
+                                                <IoMdSunny/>
+                                            ) : (
+                                                <IoMdMoon/>
+                                            )
+
+                                        }
+                                    onClick={handleThemeColorClick}
+                                    variant="ghost"
+                                />
+                            </Box>
+                            <Button onClick={onOpen} variant="ghost" px={0}>
+                                <HamburgerIcon/>
+                            </Button>
+                            <Drawer placement={'top'} onClose={onClose} isOpen={isOpen}>
+                                <DrawerOverlay/>
+                                <DrawerContent borderBottomRadius="6px">
+                                    <DrawerCloseButton/>
+                                    <DrawerHeader>Menu</DrawerHeader>
+                                    <DrawerBody py={4}>
+                                        <VStack>
+                                            <Link href={"/projects"}>
+                                                <Button
+                                                    size="lg"
+                                                    w="100%"
+                                                    _activeLink={{
+                                                        color: useColorModeValue("blue.500", "blue.200"),
+                                                    }}
+                                                >
+                                                    Projects
+                                                </Button>
+                                            </Link>
+                                            <Link href={"/about"}>
+
+                                                <Button
+                                                    size="lg"
+                                                    w="100%"
+                                                    _activeLink={{
+                                                        color: useColorModeValue("blue.500", "blue.200"),
+                                                    }}
+                                                >
+                                                    About
+                                                </Button>
+                                            </Link>
+                                            <Link href={"/blog"}>
+                                                <Button
+                                                    size="lg"
+                                                    w="100%"
+                                                    _activeLink={{
+                                                        color: useColorModeValue("blue.500", "blue.200"),
+                                                    }}
+                                                >
+                                                    Blog
+                                                </Button>
+                                            </Link>
+
+                                            <SimpleGrid columns={2} spacing={2} w="100%">
+                                                <Link href={"/books"}>
+                                                    <Button
+                                                        size="lg"
+                                                        w="100%"
+                                                        _activeLink={{
+                                                            color: useColorModeValue("blue.500", "blue.200"),
+                                                        }}
+                                                    >
+                                                        Books
+                                                    </Button>
+                                                </Link>
+                                                <Link href={"/tools"}>
+                                                    <Button
+                                                        size="lg"
+                                                        w="100%"
+                                                        _activeLink={{
+                                                            color: useColorModeValue("blue.500", "blue.200"),
+                                                        }}
+                                                    >
+                                                        Tools
+                                                    </Button>
+                                                </Link>
+                                            </SimpleGrid>
+                                        </VStack>
+                                    </DrawerBody>
+                                </DrawerContent>
+                            </Drawer>
+                        </Box>
+                    </HStack>
+                </Box>
+            </Container>
         </Box>
     );
 };
