@@ -41,7 +41,7 @@ const AboutPage = () => {
 
                             <VStack align="left">
                                 <Heading as="h2" size="xl" pb={5}>
-                                    Informatie
+                                    Information
                                 </Heading>
 
                                 <Accordion defaultIndex={[0]} allowMultiple>
@@ -49,7 +49,7 @@ const AboutPage = () => {
                                         <h2>
                                             <AccordionButton>
                                                 <Box flex="1" textAlign="left">
-                                                    Vaardigheden🔬
+                                                    Skills🔬
                                                 </Box>
                                                 <AccordionIcon/>
                                             </AccordionButton>
@@ -59,18 +59,17 @@ const AboutPage = () => {
                                                 <ListItem>
                                                     <ListIcon as={IoIosCheckmarkCircleOutline}
                                                               color="green.500"/>
-                                                    Talen en frameworks zoals JS/PHP/SCSS/GIT/MERN/WAMP
+                                                    Languages ​​and frameworks: JS/PHP/Java/NextJS/Express/SCSS/GIT
                                                 </ListItem>
                                                 <ListItem>
                                                     <ListIcon as={IoIosCheckmarkCircleOutline}
                                                               color="green.500"/>
-                                                    WordPress thema en plugin ontwikkeling
+                                                    WordPress theme and plugin development
                                                 </ListItem>
                                                 <ListItem>
                                                     <ListIcon as={IoIosCheckmarkCircleOutline}
                                                               color="green.500"/>
-                                                    Snel goed werkende web applicaties gebouwd op
-                                                    React/Redux.
+                                                    Fast, well-functioning web applications built on React/Redux.
                                                 </ListItem>
                                             </List>
                                         </AccordionPanel>
@@ -80,7 +79,7 @@ const AboutPage = () => {
                                         <h2>
                                             <AccordionButton>
                                                 <Box flex="1" textAlign="left">
-                                                    Ervaringen 👁️
+                                                    Experiences 👁️
                                                 </Box>
                                                 <AccordionIcon/>
                                             </AccordionButton>
@@ -99,7 +98,7 @@ const AboutPage = () => {
                                                 </ListItem>
                                                 <ListItem>
                                                     <ListIcon as={IoIosBuild} color="green.500"/>
-                                                    Vorm Technologies (ZZP) - Applicatie ontwikkelaar
+                                                    Vorm Technologies (ZZP) - Application developer
                                                     2020
                                                 </ListItem>
                                             </List>
@@ -119,14 +118,13 @@ const AboutPage = () => {
                                             <List spacing={3}>
                                                 <ListItem>
                                                     <ListIcon as={IoIosBook} color="green.500"/>
-                                                    Applicatie -Media ontwikkeling Niveau 4 - ROC Midden
+                                                    Application -Media Development Niveau 4 - ROC Midden
                                                     Nederland
                                                     2017 - 2020
                                                 </ListItem>
                                                 <ListItem>
                                                     <ListIcon as={IoIosBook} color="green.500"/>
-                                                    HBO ICT Software Developer - Hogeschool van
-                                                    Amsterdam
+                                                    HBO ICT Software Developer - University of Applied sciences Amsterdam
                                                     2020 - heden
                                                 </ListItem>
                                             </List>

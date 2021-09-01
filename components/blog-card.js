@@ -10,7 +10,7 @@ import {
   HStack,
 } from "@chakra-ui/react";
 
-const BlogCard = ({ slug, publishDate, summary, title }) => {
+const BlogCard = ({ slug, publishedAt, summary, title }) => {
   return (
     <Link href={`/blog/${slug}`}>
       <Box
@@ -37,7 +37,7 @@ const BlogCard = ({ slug, publishDate, summary, title }) => {
               fontSize="xl"
             >
               {title}{" "}
-              {new Date() - new Date(publishDate) < 1000 * 60 * 60 * 24 * 7 ? (
+              {new Date() - new Date(publishedAt) < 1000 * 60 * 60 * 24 * 7 ? (
                 <Tag size="md" mt={1} ml={1} colorScheme="purple">
                   New
                 </Tag>
@@ -49,7 +49,7 @@ const BlogCard = ({ slug, publishDate, summary, title }) => {
             {summary}
           </Text>
           <Text fontSize="xs" color={useColorModeValue("gray.500", "gray.400")}>
-            {format(publishDate)}
+            {format(publishedAt)}
           </Text>
         </VStack>
       </Box>

@@ -19,6 +19,8 @@ class BlogLayout extends React.Component {
   render() {
     const target = React.createRef();
 
+    console.log(this.props.frontMatter);
+
     return (
       <PageTransition>
         <>
@@ -49,7 +51,7 @@ class BlogLayout extends React.Component {
                 <VStack align="stretch" spacing={4} mb={6}>
                   <Heading as="h1">{this.props.frontMatter.title}</Heading>
                   <AuthorCard
-                    publishedAt={this.props.frontMatter.publishDate}
+                    publishedAt={this.props.frontMatter.publishedAt}
                     url={
                       "https://saifrashed.com/blog/" +
                       this.props.frontMatter.slug

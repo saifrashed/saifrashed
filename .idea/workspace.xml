@@ -2,172 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0d44ba-673b-4350-b49f-518b7fc17e70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/author-card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/blog-card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/blog-seo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/codeblock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/font-face.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/page-transitions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/twitter-card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/legal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/graphcms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blog/[slug].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/lightswitch.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/menu-open.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-100.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-200.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-600.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-800.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Inter-900.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/About/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Landing/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ProductionDetail/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Productions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Projects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/blog-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/blog-card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/font-face.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/font-face.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/authentication-in-next-js-with-strapi-and-next-auth/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/authentication-in-next-js-with-strapi-and-next-auth/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/authentication-in-next-js-with-strapi-and-next-auth/cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/automate-backend-stuffs-with-strapi-and-docker/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/create-a-npm-package-from-a-react-component/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/14.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/getting-started-with-nextjs-and-graphcms/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-authenticate-your-next-js-application-using-open-source-headless-cms-strapi/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/10.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/8.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/how-to-create-an-accessible-pagination-component-with-react/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/integrating-tailwindcss-with-next-js/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-hasura-boilerplate/hasura-nextjs-boilerplate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/nextjs-strapi-boilerplate/strapi-nextjs-boilerplate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/understanding-component-oriented-styling-using-styletron/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/understanding-component-oriented-styling-using-styletron/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/using-mirage-js-to-jumpstart-your-frontend-development/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/content/what-is-tailwind-css/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/destbv/dest_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/destbv/dest_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/destbv/dest_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/dyade_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/dyade_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/dyade_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/dyade_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/dyade/dyade_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/internetinbeeld/internetinbeeld_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/lashit/lashit_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/lashit/lashit_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/lashit/lashit_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/lashit/lashit_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.15.27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.15.54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.16.03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.16.21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/Schermafbeelding-2020-08-03-om-23.16.31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/magnificenthairextensions/magnificent_hairextensions.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/mooibygerda/mooibygerda_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.32.25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.32.36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.32.53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/oliekan/Schermafbeelding-2019-12-03-om-14.33.07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/oliekan/oliekan_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/softwaresuite/softwaresuite_thumbnail.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/womenonstage/Schermafbeelding-2019-12-03-om-14.35.51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/womenonstage/Schermafbeelding-2019-12-03-om-14.35.57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/womenonstage/Schermafbeelding-2019-12-03-om-14.36.03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/productions/womenonstage/womenonstage_thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,23 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-275">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/blog/[slug].js">
+        <entry file="file://$PROJECT_DIR$/components/blog-card.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="9" selection-end-line="10" />
+            <state relative-caret-position="405">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/about.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2340">
+              <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,14 +66,65 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+            <state relative-caret-position="570">
+              <caret line="53" column="67" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="67" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/author-card.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/font-face.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" column="7" selection-start-line="3" selection-start-column="6" selection-end-line="73" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/globals.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/_app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/theme.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -285,15 +195,11 @@
         <option value="$PROJECT_DIR$/components/Landing/index.js" />
         <option value="$PROJECT_DIR$/components/About/index.js" />
         <option value="$PROJECT_DIR$/components/page-transitions.js" />
-        <option value="$PROJECT_DIR$/pages/_app.js" />
-        <option value="$PROJECT_DIR$/components/font-face.js" />
-        <option value="$PROJECT_DIR$/theme.js" />
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/components/container.js" />
         <option value="$PROJECT_DIR$/pages/404.js" />
         <option value="$PROJECT_DIR$/pages/projects/index.js" />
         <option value="$PROJECT_DIR$/pages/projects.js" />
-        <option value="$PROJECT_DIR$/pages/about.js" />
         <option value="$PROJECT_DIR$/components/NavBar/index.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/components/mdx-components.js" />
@@ -301,10 +207,16 @@
         <option value="$PROJECT_DIR$/components/blog-seo.js" />
         <option value="$PROJECT_DIR$/components/author-card.js" />
         <option value="$PROJECT_DIR$/components/twitter-card.js" />
-        <option value="$PROJECT_DIR$/pages/blog.js" />
         <option value="$PROJECT_DIR$/pages/blog/[slug].js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/components/font-face.js" />
+        <option value="$PROJECT_DIR$/pages/_app.js" />
+        <option value="$PROJECT_DIR$/styles/globals.css" />
+        <option value="$PROJECT_DIR$/theme.js" />
         <option value="$PROJECT_DIR$/layouts/blog.js" />
+        <option value="$PROJECT_DIR$/pages/blog.js" />
+        <option value="$PROJECT_DIR$/components/blog-card.js" />
+        <option value="$PROJECT_DIR$/pages/about.js" />
       </list>
     </option>
   </component>
@@ -342,6 +254,27 @@
               <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saifrashed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saifrashed" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -359,19 +292,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/public/images/common" />
       <recent name="$PROJECT_DIR$/public/images/productions/womenonstage" />
       <recent name="$PROJECT_DIR$/public/images/productions/magnificenthairextensions" />
       <recent name="$PROJECT_DIR$/public/images/productions/internetinbeeld" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/pages" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/images/common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -406,18 +339,18 @@
       <workItem from="1627915315950" duration="3782000" />
       <workItem from="1629215990199" duration="11694000" />
       <workItem from="1629288788036" duration="11593000" />
-      <workItem from="1629553327999" duration="2029000" />
+      <workItem from="1629553327999" duration="4540000" />
+      <workItem from="1630372787345" duration="826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57500000" />
+    <option name="totallyTimeSpent" value="60837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2832723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -433,7 +366,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2744898" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2377551" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -469,7 +402,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/pages/about/base/index.tsx" />
     <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/pages/projects/index.tsx" />
     <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/pages/projects/base/index.tsx" />
     <entry file="file://$USER_HOME$/Downloads/nirmalyaghosh.com-master/components/layouts/projects/index.tsx" />
@@ -526,31 +458,10 @@
     <entry file="file://$PROJECT_DIR$/jsconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@chakra-ui/layout/dist/types/grid.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/font-face.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -560,16 +471,6 @@
           <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/blog-card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/projects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -615,13 +509,6 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -649,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/author-card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/twitter-card.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -673,20 +553,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/mdx-components.js">
+    <entry file="file://$PROJECT_DIR$/components/mdx-components.js" />
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1526">
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -706,11 +577,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        <state relative-caret-position="570">
+          <caret line="53" column="67" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="67" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/author-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/font-face.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="7" selection-start-line="3" selection-start-column="6" selection-end-line="73" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/globals.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/blog-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="156" column="40" selection-start-line="156" selection-start-column="40" selection-end-line="156" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
