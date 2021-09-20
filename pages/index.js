@@ -13,6 +13,9 @@ export default function Home() {
             <NavBar/>
             <Head>
                 <title>Saif Rashed</title>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+                        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
             </Head>
 
             <PageTransition>
@@ -44,7 +47,6 @@ export default function Home() {
                                 </Text>
                             </Box>
 
-                            <SimpleGrid columns={1} spacing={4} mt={8} w="100%">
                                 <Link href={"/projects"} isExternal>
                                     <HStack
                                         p={4}
@@ -52,8 +54,6 @@ export default function Home() {
                                         rounded="xl"
                                         borderWidth="1px"
                                         borderColor={useColorModeValue("gray.100", "gray.700")}
-                                        w="100%"
-                                        h="100%"
                                         textAlign="left"
                                         align="start"
                                         spacing={4}
@@ -141,7 +141,6 @@ export default function Home() {
                                         </VStack>
                                     </HStack>
                                 </Link>
-                            </SimpleGrid>
                         </Stack>
                     </Container>
                 </Box>
