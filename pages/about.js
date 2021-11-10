@@ -109,7 +109,7 @@ const AboutPage = () => {
                                         <h2>
                                             <AccordionButton>
                                                 <Box flex="1" textAlign="left">
-                                                    Studies 📚
+                                                    Education 📚
                                                 </Box>
                                                 <AccordionIcon/>
                                             </AccordionButton>

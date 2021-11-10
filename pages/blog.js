@@ -31,7 +31,7 @@ export default function Blog({posts}) {
                                     <Heading as="h1" size="xl">
                                         Blog 📖
                                     </Heading>
-                                    <Text>My various projects, available on Github</Text>
+                                    <Text>Articles coming soon</Text>
                                 </VStack>
                             </Box>
 
@@ -44,6 +44,7 @@ export default function Blog({posts}) {
                                     .map((post) => {
                                         return <BlogCard key={post.id} {...post} />;
                                     })}
+
                             </VStack>
 
                         </VStack>

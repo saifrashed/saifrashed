@@ -104,11 +104,16 @@ const Navbar = () => {
                                     Links
                                 </MenuButton>
                                 <MenuList>
-                                    <MenuItem minH="48px">
-                                        <span>Books</span>
-                                    </MenuItem>
+                                    {/*<MenuItem minH="48px">*/}
+                                        {/*<span>Books</span>*/}
+                                    {/*</MenuItem>*/}
+                                    {/*<MenuItem minH="40px">*/}
+                                        {/*<span>Tools</span>*/}
+                                    {/*</MenuItem>*/}
                                     <MenuItem minH="40px">
-                                        <span>Tools</span>
+                                        <Link href={"/cv"}>
+                                            <span>Curriculum Vitae</span>
+                                        </Link>
                                     </MenuItem>
                                 </MenuList>
                             </Menu>
