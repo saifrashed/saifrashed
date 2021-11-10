@@ -31,7 +31,7 @@ export default function Blog({posts}) {
                                     <Heading as="h1" size="xl">
                                         Blog 📖
                                     </Heading>
-                                    <Text>Articles coming soon</Text>
+                                    <Text>Articles covering a wide range of subjects</Text>
                                 </VStack>
                             </Box>
 
