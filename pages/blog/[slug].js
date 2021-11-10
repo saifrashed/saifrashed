@@ -3,7 +3,8 @@ import {RichText} from '@graphcms/rich-text-react-renderer';
 
 import readingTime from "reading-time";
 import BlogLayout from "../../layouts/blog";
-import {Heading, ListItem, Stack, Table, Tbody, Td, Text, Th, Tr, UnorderedList, VStack} from "@chakra-ui/react";
+import {Heading, Box, ListItem, Stack, Table, Tbody, Td, Text, Th, Tr, UnorderedList, VStack, Code, Image} from "@chakra-ui/react";
+import NextImage from "next/image";
 import NavBar from '../../components/NavBar'
 import Container from "../../components/container";
 
@@ -34,7 +35,9 @@ export default function Blog({source, frontMatter}) {
                                     table_body: ({children}) => <Tbody>{children}</Tbody>,
                                     table_head: ({children}) => <Th>{children}</Th>,
                                     table_row:  ({children}) => <Tr>{children}</Tr>,
-                                    table_cell: ({children}) => <Td>{children}</Td>
+                                    table_cell: ({children}) => <Td>{children}</Td>,
+                                    code_block: ({children}) => <Code>{children}</Code>,
+                                    img: ({src}) => (<Box mt={4} mb={4} rounded="lg" shadow="lg" overflow="hidden" lineHeight={0}><Image src={src} /></Box>),
                                 }}
                             />
                         </VStack>

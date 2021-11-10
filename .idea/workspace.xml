@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0d44ba-673b-4350-b49f-518b7fc17e70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/cv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/NavBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/graphcms.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/graphcms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/blog/[slug].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog/[slug].js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +13,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/pages/blog/[slug].js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="585">
+              <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +114,8 @@
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/lib/graphcms.js" />
         <option value="$PROJECT_DIR$/pages/blog.js" />
-        <option value="$PROJECT_DIR$/pages/blog/[slug].js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/pages/blog/[slug].js" />
       </list>
     </option>
   </component>
@@ -252,12 +247,12 @@
       <workItem from="1632474760136" duration="6338000" />
       <workItem from="1632660724602" duration="8000" />
       <workItem from="1632740923656" duration="6000" />
-      <workItem from="1636574853095" duration="3637000" />
+      <workItem from="1636574853095" duration="4561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73367000" />
+    <option name="totallyTimeSpent" value="74291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -535,16 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/blog/[slug].js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="12" lean-forward="true" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/NavBar/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
@@ -558,7 +543,17 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/blog/[slug].js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="95" selection-start-line="39" selection-start-column="95" selection-end-line="39" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
