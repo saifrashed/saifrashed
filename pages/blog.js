@@ -20,7 +20,6 @@ export default function Blog({posts}) {
                 <title>Blog 📖‍</title>
             </Head>
 
-
             <PageTransition>
                 <Container>
                     <Stack py={{base: 4, md: 20, xl: 50}}>

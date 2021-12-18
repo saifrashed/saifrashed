@@ -87,18 +87,18 @@ const Navbar = () => {
                                     </Button>
                                 </Link>
 
-                                <Link href={"/blog"}>
-                                    <Button
-                                        variant="ghost"
-                                        size="md"
-                                        _activeLink={{
-                                            color: useColorModeValue("blue.500", "blue.200"),
-                                        }}
-                                        px={4}
-                                    >
-                                        Blog
-                                    </Button>
-                                </Link>
+                                {/*<Link href={"/blog"}>*/}
+                                    {/*<Button*/}
+                                        {/*variant="ghost"*/}
+                                        {/*size="md"*/}
+                                        {/*_activeLink={{*/}
+                                            {/*color: useColorModeValue("blue.500", "blue.200"),*/}
+                                        {/*}}*/}
+                                        {/*px={4}*/}
+                                    {/*>*/}
+                                        {/*Blog*/}
+                                    {/*</Button>*/}
+                                {/*</Link>*/}
                                 <MenuButton as={Button} onClick={handleMenuClick} variant="ghost"
                                             rightIcon={<ChevronDownIcon/>}>
                                     Links
