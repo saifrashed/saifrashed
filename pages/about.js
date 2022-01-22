@@ -98,7 +98,7 @@ const AboutPage = () => {
                                                 </ListItem>
                                                 <ListItem>
                                                     <ListIcon as={IoIosBuild} color="green.500"/>
-                                                    Vorm Technologies (ZZP) - Application developer
+                                                    Afkaer Technologies (ZZP) - Application developer
                                                     2020
                                                 </ListItem>
                                             </List>
@@ -124,7 +124,8 @@ const AboutPage = () => {
                                                 </ListItem>
                                                 <ListItem>
                                                     <ListIcon as={IoIosBook} color="green.500"/>
-                                                    HBO ICT Software Developer - University of Applied sciences Amsterdam
+                                                    HBO ICT Software Developer - University of Applied sciences
+                                                    Amsterdam
                                                     2020 - heden
                                                 </ListItem>
                                             </List>

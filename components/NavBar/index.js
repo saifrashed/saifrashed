@@ -1,8 +1,8 @@
 import React from "react";
-import {Avatar, Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, HStack, IconButton, Menu, MenuButton, MenuItem, MenuList, SimpleGrid, useColorMode, useColorModeValue, useDisclosure, VStack} from "@chakra-ui/react";
+import {Avatar, Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, HStack, IconButton, Menu, useColorMode, useColorModeValue, useDisclosure, VStack} from "@chakra-ui/react";
 import Link from "next/link";
 import {IoMdMoon, IoMdSunny} from "react-icons/io";
-import {ChevronDownIcon, HamburgerIcon} from "@chakra-ui/icons";
+import {HamburgerIcon} from "@chakra-ui/icons";
 import Container from "../container";
 import useSound from "use-sound";
 
@@ -86,36 +86,6 @@ const Navbar = () => {
                                         About
                                     </Button>
                                 </Link>
-
-                                {/*<Link href={"/blog"}>*/}
-                                    {/*<Button*/}
-                                        {/*variant="ghost"*/}
-                                        {/*size="md"*/}
-                                        {/*_activeLink={{*/}
-                                            {/*color: useColorModeValue("blue.500", "blue.200"),*/}
-                                        {/*}}*/}
-                                        {/*px={4}*/}
-                                    {/*>*/}
-                                        {/*Blog*/}
-                                    {/*</Button>*/}
-                                {/*</Link>*/}
-                                <MenuButton as={Button} onClick={handleMenuClick} variant="ghost"
-                                            rightIcon={<ChevronDownIcon/>}>
-                                    Links
-                                </MenuButton>
-                                <MenuList>
-                                    {/*<MenuItem minH="48px">*/}
-                                        {/*<span>Books</span>*/}
-                                    {/*</MenuItem>*/}
-                                    {/*<MenuItem minH="40px">*/}
-                                        {/*<span>Tools</span>*/}
-                                    {/*</MenuItem>*/}
-                                    <MenuItem minH="40px">
-                                        <Link href={"/cv"}>
-                                            <span>Curriculum Vitae</span>
-                                        </Link>
-                                    </MenuItem>
-                                </MenuList>
                             </Menu>
                         </Box>
                         <Box px={2}>
@@ -201,42 +171,6 @@ const Navbar = () => {
                                                     About
                                                 </Button>
                                             </Link>
-                                            <Link href={"/blog"}>
-                                                <Button
-                                                    size="lg"
-                                                    w="100%"
-                                                    _activeLink={{
-                                                        color: useColorModeValue("blue.500", "blue.200"),
-                                                    }}
-                                                >
-                                                    Blog
-                                                </Button>
-                                            </Link>
-
-                                            <SimpleGrid columns={2} spacing={2} w="100%">
-                                                <Link href={"/books"}>
-                                                    <Button
-                                                        size="lg"
-                                                        w="100%"
-                                                        _activeLink={{
-                                                            color: useColorModeValue("blue.500", "blue.200"),
-                                                        }}
-                                                    >
-                                                        Books
-                                                    </Button>
-                                                </Link>
-                                                <Link href={"/tools"}>
-                                                    <Button
-                                                        size="lg"
-                                                        w="100%"
-                                                        _activeLink={{
-                                                            color: useColorModeValue("blue.500", "blue.200"),
-                                                        }}
-                                                    >
-                                                        Tools
-                                                    </Button>
-                                                </Link>
-                                            </SimpleGrid>
                                         </VStack>
                                     </DrawerBody>
                                 </DrawerContent>

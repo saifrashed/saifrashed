@@ -1,15 +1,14 @@
 import Head from "next/head";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer"
-import {Box, Button, Grid, Heading, Image, Input, SimpleGrid, Stack, Text, useColorMode, VStack} from "@chakra-ui/react";
+import {Box, Button, Grid, Heading, HStack, Image, Input, SimpleGrid, Stack, Tag, Text, useColorMode, useColorModeValue, VStack} from "@chakra-ui/react";
 import React, {useState} from "react";
 import {IoMdArrowForward} from "react-icons/io";
 import Container from "../components/container";
 import PageTransition from "../components/page-transitions";
-
+import {format} from "timeago.js";
 
 const ProjectsIndexPage = ({projects = []}) => {
-
 
     const {colorMode}                   = useColorMode();
     const cardBgColor                   = {light: "white", dark: "gray.900"};
@@ -86,30 +85,50 @@ const ProjectsIndexPage = ({projects = []}) => {
             <SimpleGrid columns={[1, 2, 2]} spacing={10}>
                 {sortedProjects.map((project, index) => {
                     return (
-                        <Box
-                            key={index}
-                            bg={cardBgColor[colorMode]}
-                            color={cardColor[colorMode]}
-                            rounded="md"
-                            shadow="md"
-                        >
-                            <a href={project.html_url} target="_blank" rel="noopener">
-                                <Box p={8}>
+                        <>
+                            <a href={project.html_url} target="_blank" rel="noopener" key={index}>
+                                <Box
+                                    as="a"
+                                    cursor="pointer"
+                                    w="100%"
+                                    transition="all 0.25s"
+                                    transition-timing-function="spring(1 100 10 10)"
+                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                >
                                     <VStack
-                                        spacing={4}
-                                        minH={48}
-                                        justifyContent="space-between"
-                                        align="left"
+                                        align="start"
+                                        p={4}
+                                        bg={useColorModeValue("white", "gray.800")}
+                                        rounded="xl"
+                                        borderWidth="1px"
+                                        borderColor={useColorModeValue("gray.100", "gray.700")}
+                                        spacing={0}
                                     >
-                                        <VStack spacing={1} align="left">
-                                            {titleNode(project.name)}
-                                            {descriptionNode(project.description)}
-                                        </VStack>
-                                        <Box>{ctaNode()}</Box>
+                                        <HStack>
+                                            <Text
+                                                color={useColorModeValue("blue.500", "blue.200")}
+                                                fontWeight="bold"
+                                                fontSize="xl"
+                                            >
+                                                {project.name}{" "}
+                                                {new Date() - new Date() < 1000 * 60 * 60 * 24 * 7 ? (
+                                                    <Tag size="md" mt={1} ml={1} colorScheme="purple">
+                                                        {project.language}
+                                                    </Tag>
+                                                ) : undefined}
+                                            </Text>
+                                        </HStack>
+
+                                        <Text fontSize="lg" color={useColorModeValue("gray.700", "gray.50")}>
+                                            {project.description}
+                                        </Text>
+                                        <Text fontSize="xs" color={useColorModeValue("gray.500", "gray.400")}>
+                                            {format(project.created_at)}
+                                        </Text>
                                     </VStack>
                                 </Box>
                             </a>
-                        </Box>
+                        </>
                     );
                 })}
             </SimpleGrid>
@@ -134,11 +153,13 @@ const ProjectsIndexPage = ({projects = []}) => {
                                     {headingNode()}
                                     {searchNode()}
                                     {projectsNode()}
+
                                 </VStack>
                             </Box>
                         </Grid>
                     </Stack>
                 </Container>
+
             </PageTransition>
 
             <Footer/>
