@@ -1,0 +1,49 @@
+[
+  {
+    "year": 2021,
+    "achievements": [
+      {
+        "title": "Rabobank Utrecht, ICT Software Developer",
+        "description": "Internship"
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "achievements": [
+      {
+        "title": "HBO ICT Software Developer - University of Applied Sciences Amsterdam",
+        "description": "Education"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "achievements": [
+      {
+        "title": "BlueBloq - SEO & Online marketing",
+        "description": "Internship, Parttime"
+
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "achievements": [
+      {
+        "title": "Blue Mammoth - WordPress specialist",
+        "description": "Internship, Parttime"
+
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "achievements": [
+      {
+        "title": "Application -Media Development Niveau 4 - ROC Midden Nederland",
+        "description": "Education"
+      }
+    ]
+  }
+]

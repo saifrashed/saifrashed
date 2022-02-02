@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Avatar, Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerHeader, DrawerOverlay, HStack, IconButton, Menu, useColorMode, useColorModeValue, useDisclosure, VStack} from "@chakra-ui/react";
 import Link from "next/link";
 import {IoMdMoon, IoMdSunny} from "react-icons/io";
@@ -21,6 +21,11 @@ const Navbar = () => {
         },
     });
 
+
+    useEffect(() => {
+
+    }, []);
+
     const [playMenuSound] = useSound("/menu-open.mp3", {
         volume: 0.05
     });
@@ -38,11 +43,15 @@ const Navbar = () => {
     return (
         <Box
             as="header"
-            zIndex={1}
             bg={navbarSectionBgColor[colorMode]}
             color={navbarSectionColor[colorMode]}
-            shadow="md"
+            zIndex={1}
             fontWeight="bold"
+            position="fixed"
+            w="100%"
+            borderBottomWidth="2px"
+            borderBottomColor={useColorModeValue("neutral.400", "neutralD.400")}
+            shadow="0 0 10px 0 rgba(0,0,0, 0.035);"
         >
             <Container>
                 <Box display={["none", "none", "none", "block"]}>
@@ -54,7 +63,7 @@ const Navbar = () => {
                                     <Avatar
                                         name="Saif Rashed"
                                         size="md"
-                                        src="/images/common/portrait.jpg"
+                                        src="/images/portrait.jpg"
                                         cursor="pointer"
                                     />
                                 </Link>
@@ -115,7 +124,7 @@ const Navbar = () => {
                                     <Avatar
                                         name="Saif Rashed"
                                         size="md"
-                                        src="/images/common/portrait.jpg"
+                                        src="/images/portrait.jpg"
                                         cursor="pointer"
                                     />
                                 </Link>
@@ -138,7 +147,10 @@ const Navbar = () => {
                                     variant="ghost"
                                 />
                             </Box>
-                            <Button onClick={onOpen} variant="ghost" px={0}>
+                            <Button onClick={() => {
+                                onOpen();
+                                handleMenuClick()
+                            }} variant="ghost" px={0}>
                                 <HamburgerIcon/>
                             </Button>
                             <Drawer placement={'top'} onClose={onClose} isOpen={isOpen}>

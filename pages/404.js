@@ -9,8 +9,6 @@ import React from "react";
 export default function NotFound() {
     return (
         <>
-            <NavBar/>
-
             <PageTransition>
                 <Container>
                     <Stack py={{base: 4, md: 20, xl: 50}}>

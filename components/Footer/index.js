@@ -1,5 +1,4 @@
-import {Box, HStack, Image, Link as _Link, Text} from "@chakra-ui/react";
-import Link from "next/link";
+import {Box, HStack, Link, Text} from "@chakra-ui/react";
 import React from "react";
 
 const Footer = () => {
@@ -15,7 +14,9 @@ const Footer = () => {
                     <HStack spacing={2}>
                         <Box p={4}>
                             <Text fontSize="sm">
-                                Copyright  &copy; {new Date().getFullYear()} Saif Rashed
+                                Copyright  &copy; {new Date().getFullYear()} Saif Rashed, <Link
+                                href='https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=777444380000'
+                                isExternal>77744438</Link>
                             </Text>
                         </Box>
                     </HStack>

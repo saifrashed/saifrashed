@@ -1,9 +1,7 @@
 import Head from "next/head";
-import NavBar from "../components/NavBar";
 import Footer from "../components/Footer"
-import {Box, Button, Grid, Heading, HStack, Image, Input, SimpleGrid, Stack, Tag, Text, useColorMode, useColorModeValue, VStack} from "@chakra-ui/react";
+import {Box, Grid, Heading, HStack, Input, SimpleGrid, Stack, Tag, Text, useColorMode, useColorModeValue, VStack} from "@chakra-ui/react";
 import React, {useState} from "react";
-import {IoMdArrowForward} from "react-icons/io";
 import Container from "../components/container";
 import PageTransition from "../components/page-transitions";
 import {format} from "timeago.js";
@@ -25,6 +23,7 @@ const ProjectsIndexPage = ({projects = []}) => {
                     bg={cardBgColor[colorMode]}
                     color={cardColor[colorMode]}
                     value={searchQuery}
+                    zIndex={0}
                     onChange={(e) =>
                         setSearchQuery(e.currentTarget.value)
                     }
@@ -47,37 +46,13 @@ const ProjectsIndexPage = ({projects = []}) => {
         );
     };
 
-    const titleNode = (title) => {
-        return (
-            <Heading as="h3" size="md" letterSpacing="tight" lineHeight="tall">
-                {title}
-            </Heading>
-        );
-    };
-
-    const descriptionNode = (description) => {
-        return <Text fontSize="sm">{description}</Text>;
-    };
-
-    const ctaNode = () => {
-        return (
-            <Button rightIcon={<IoMdArrowForward/>} fontSize="sm">
-                Bekijk project
-            </Button>
-        );
-    };
 
     const projectsNode = () => {
         if (!sortedProjects.length) {
             return (
-                <VStack mx="auto" textAlign="center">
-                    <Image
-                        src="/images/common/no-items.svg"
-                        alt="No projects found!"
-                        size={64}
-                    />
-                    <Text>Geen projecten gevonden!</Text>
-                </VStack>
+                <HStack mx="auto" textAlign="center">
+                    <Text>No Projects found!</Text>
+                </HStack>
             );
         }
 
@@ -85,8 +60,8 @@ const ProjectsIndexPage = ({projects = []}) => {
             <SimpleGrid columns={[1, 2, 2]} spacing={10}>
                 {sortedProjects.map((project, index) => {
                     return (
-                        <>
-                            <a href={project.html_url} target="_blank" rel="noopener" key={index}>
+                        <div  key={index}>
+                            <a href={project.html_url} target="_blank" rel="noopener">
                                 <Box
                                     as="a"
                                     cursor="pointer"
@@ -128,7 +103,7 @@ const ProjectsIndexPage = ({projects = []}) => {
                                     </VStack>
                                 </Box>
                             </a>
-                        </>
+                        </div>
                     );
                 })}
             </SimpleGrid>
@@ -137,8 +112,6 @@ const ProjectsIndexPage = ({projects = []}) => {
 
     return (
         <>
-            <NavBar/>
-
             <PageTransition>
                 <Container>
                     <Stack py={{base: 4, md: 20, xl: 50}}>
@@ -170,8 +143,6 @@ const ProjectsIndexPage = ({projects = []}) => {
 export async function getStaticProps() {
     const res      = await fetch(`https://api.github.com/users/saifrashed/repos?per_page=100`);
     const projects = await res.json();
-
-    console.log(projects);
 
     return {
         props: {
