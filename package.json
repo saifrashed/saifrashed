@@ -33,8 +33,6 @@
     "react-ga": "^3.3.0",
     "react-icons": "^4.2.0",
     "react-player": "^2.9.0",
-    "react-tweet-embed": "^1.2.2",
-    "react-vertical-timeline-component": "^3.5.2",
     "reading-time": "^1.4.0",
     "sort-isostring": "^1.0.0",
     "timeago.js": "^4.0.2",

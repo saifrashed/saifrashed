@@ -1,7 +1,6 @@
 import Link from "next/link";
 import {Heading, Stack, Text, VStack} from "@chakra-ui/react";
 import Container from "../components/container";
-import NavBar from '../components/NavBar'
 import Footer from "../components/Footer"
 import PageTransition from "../components/page-transitions";
 import React from "react";
