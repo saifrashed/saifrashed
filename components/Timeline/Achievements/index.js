@@ -36,20 +36,16 @@ export function Achievements({achievements}) {
                             <HStack
                                 width='full'
                             >
-                                <Box
-                                    as="a"
-                                    cursor="pointer"
-                                    w="100%"
-                                    transition="all 0.25s"
-                                    transition-timing-function="spring(1 100 10 10)"
-                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
-                                >
+                                <Box w="100%">
                                     <VStack
+                                        align="center"
                                         p={4}
+                                        bg={useColorModeValue("white", "gray.800")}
                                         rounded="xl"
                                         borderWidth="1px"
-                                        borderColor={useColorModeValue("gray.300", "gray.700")}
+                                        borderColor={useColorModeValue("gray.100", "gray.700")}
                                         spacing={0}
+
                                     >
                                         <Text
                                             fontSize='md'
@@ -65,6 +61,7 @@ export function Achievements({achievements}) {
                                         >
                                             {description}
                                         </Text>
+
                                     </VStack>
                                 </Box>
                             </HStack>

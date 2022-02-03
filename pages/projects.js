@@ -78,6 +78,9 @@ const ProjectsIndexPage = ({projects = []}) => {
                                         borderWidth="1px"
                                         borderColor={useColorModeValue("gray.100", "gray.700")}
                                         spacing={0}
+                                        transition="all 0.25s"
+                                        transition-timing-function="spring(1 100 10 10)"
+                                        _hover={{transform: "translateY(-4px)", shadow: "sm"}}
                                     >
                                         <HStack>
                                             <Text
