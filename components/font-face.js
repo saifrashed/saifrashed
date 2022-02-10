@@ -10,28 +10,28 @@ const FontFace = () => (
         font-style: normal;
         font-weight: 100;
         font-display: block;
-        src: url(./fonts/HelveticaNeue-Light.otf) format("otf");
+        src: url(./fonts/HelveticaNeue-Light.ttf) format("ttf");
       }
       @font-face {
         font-family: "HelveticaNeue";
         font-style: normal;
         font-weight: 300;
         font-display: block;
-        src: url(./fonts/HelveticaNeue-Regular.otf) format("otf");
+        src: url(./fonts/HelveticaNeue-Regular.ttf) format("ttf");
       }
       @font-face {
         font-family: "HelveticaNeue";
         font-style: normal;
         font-weight: 400;
         font-display: block;
-        src: url(./fonts/HelveticaNeue-Medium.otf) format("otf");
+        src: url(./fonts/HelveticaNeue-Medium.ttf) format("ttf");
       }
          @font-face {
         font-family: "HelveticaNeue";
         font-style: normal;
         font-weight: 800;
         font-display: block;
-        src: url(./fonts/HelveticaNeue-Bold.otf) format("otf");
+        src: url(./fonts/HelveticaNeue-Bold.ttf) format("ttf");
       }
       `}
     />
