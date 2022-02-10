@@ -25,8 +25,8 @@ function MyApp({Component, pageProps}) {
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
             </Head>
-            <FontFace/>
             <ChakraProvider theme={customTheme}>
+                <FontFace/>
                 <CSSReset/>
                 <NavBar/>
                 <Box as="main" pt={{base: 24, md: 32}} pb={{base: 24, md: 16}}>
