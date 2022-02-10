@@ -25,8 +25,8 @@ const radixPrimaryD    = transformRadixToChakraFormat(blueDark);
 
 const customTheme = extendTheme({
     fonts:      {
-        heading: "HelveticaNeue",
-        body:    "HelveticaNeue",
+        heading: "Helvetica 65 Medium",
+        body:    "Helvetica Neue",
     },
     colors:     {
         neutral:  {

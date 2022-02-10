@@ -27,7 +27,7 @@ const AboutPage = () => {
                             <VStack spacing={8}>
                                 <Box>
                                     <Heading as="h1" size="xl" pb={5} align={"center"}>
-                                        About 🙋
+                                        About 🙋‍♂
                                     </Heading>
                                     <Text align={"center"}>
                                         With a passion for technology I started developing
