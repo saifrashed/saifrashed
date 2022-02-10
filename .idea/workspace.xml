@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0d44ba-673b-4350-b49f-518b7fc17e70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components/font-face.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Bold.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Medium.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Regular.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-RegularItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Thin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Ultralight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeue.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/HelveticaNeueRegular.ttf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,16 +282,15 @@
       <workItem from="1643848780480" duration="579000" />
       <workItem from="1643862600235" duration="478000" />
       <workItem from="1644080981390" duration="1449000" />
-      <workItem from="1644484736737" duration="1997000" />
+      <workItem from="1644484736737" duration="2207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95312000" />
+    <option name="totallyTimeSpent" value="95522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25152627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
