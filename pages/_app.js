@@ -7,6 +7,7 @@ import ReactGA from "react-ga";
 import NavBar from '../components/NavBar'
 import Head from "next/head"
 
+import FontFace from "../components/font-face"
 
 function MyApp({Component, pageProps}) {
 
@@ -21,9 +22,9 @@ function MyApp({Component, pageProps}) {
         <>
             <Head>
                 <title>Saif Rashed</title>
-                <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet"/>
             </Head>
             <ChakraProvider theme={customTheme}>
+                <FontFace/>
                 <CSSReset/>
                 <NavBar/>
                 <Box as="main" pt={{base: 24, md: 32}} pb={{base: 24, md: 16}}>
