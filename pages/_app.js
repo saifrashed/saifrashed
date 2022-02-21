@@ -22,6 +22,11 @@ function MyApp({Component, pageProps}) {
         <>
             <Head>
                 <title>Saif Rashed</title>
+
+                <meta property='og:title' content='Saif Rashed'/>
+                <meta property='og:image' content='https://www.saifrashed.com/images/og.png'/>
+                <meta property='og:description' content='Personal website.'/>
+                <meta property='og:url' content='https://www.saifrashed.com'/>
             </Head>
             <ChakraProvider theme={customTheme}>
                 <FontFace/>
