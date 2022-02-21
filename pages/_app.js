@@ -23,10 +23,20 @@ function MyApp({Component, pageProps}) {
             <Head>
                 <title>Saif Rashed</title>
 
-                <meta property='og:title' content='Saif Rashed'/>
-                <meta property='og:image' content='https://www.saifrashed.com/images/og.png'/>
-                <meta property='og:description' content='Personal website.'/>
-                <meta property='og:url' content='https://www.saifrashed.com'/>
+                <meta property="og:url" content="https://www.saifrashed.com/"/>
+                <meta property="og:type" content="website"/>
+                <meta property="og:title" content="Saif Rashed"/>
+                <meta property="og:description" content="Personal website."/>
+                <meta property="og:image" content="https://www.saifrashed.com/images/og.png"/>
+
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta property="twitter:domain" content="saifrashed.com"/>
+                <meta property="twitter:url" content="https://www.saifrashed.com/"/>
+                <meta name="twitter:title" content="Saif Rashed"/>
+                <meta name="twitter:description" content="Personal website."/>
+                <meta name="twitter:image"
+                      content="https://www.saifrashed.com/images/og.png"/>
+
             </Head>
             <ChakraProvider theme={customTheme}>
                 <FontFace/>
