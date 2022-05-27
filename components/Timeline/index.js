@@ -14,7 +14,7 @@ export function Timeline({timelineList}) {
             zIndex={-1}
         >
             <Heading as='h2' paddingTop={10}>
-                Timeline ⏳
+                Timeline
             </Heading>
 
             <List spacing={4} align={"center"}>

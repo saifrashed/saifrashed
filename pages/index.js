@@ -20,7 +20,7 @@ export default function Home() {
                                 >
 
                                         <span style={{
-                                            background:     "linear(to-l, #95ccff,#4299e1)",
+                                            background: "linear(to-l, #95ccff,#4299e1)",
                                             backgroundClip: "text"
                                         }}> Hello, i'm Saif Rashed</span> 👋
                                 </Text>
@@ -72,14 +72,63 @@ export default function Home() {
                                                     fontWeight="bold"
                                                     fontFamily="heading"
                                                 >
-                                                    Projects 🛠️
+                                                    Projects ✨
                                                 </Heading>
                                             </Flex>
                                         </Box>
 
                                         <Box>
                                             <Text fontSize="md" color="gray.600">
-                                                A listing of my public repositories.
+                                                A showcase of my completed work.
+                                            </Text>
+                                        </Box>
+                                    </VStack>
+                                </HStack>
+                            </Link>
+
+                            <Link href={"/repositories"} isExternal>
+                                <HStack
+                                    p={4}
+                                    bg={useColorModeValue("white", "gray.800")}
+                                    rounded="xl"
+                                    cursor="pointer"
+                                    borderWidth="1px"
+                                    borderColor={useColorModeValue("gray.100", "gray.700")}
+                                    w="100%"
+                                    h="100%"
+                                    textAlign="left"
+                                    align="start"
+                                    spacing={4}
+                                    transition="all 0.25s"
+                                    transition-timing-function="spring(1 100 10 10)"
+                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                >
+
+
+                                    <VStack spacing={1} align="left">
+                                        <Box>
+                                            <Flex
+                                                display="flex"
+                                                flexDirection="row"
+                                                alignItems="center"
+                                                justifyContent="flex-start"
+                                                pb={2}
+                                            >
+                                                <Heading
+                                                    size="md"
+                                                    as="h2"
+                                                    lineHeight="shorter"
+                                                    fontWeight="bold"
+                                                    fontFamily="heading"
+                                                >
+                                                    Repositories 🛠️
+                                                </Heading>
+                                            </Flex>
+                                        </Box>
+
+                                        <Box>
+                                            <Text fontSize="md" color="gray.600">
+                                                A listing of my repositories, available on Github.
                                             </Text>
                                         </Box>
                                     </VStack>
@@ -126,7 +175,7 @@ export default function Home() {
 
                                         <Box>
                                             <Text fontSize="md" color="gray.600">
-                                                Contains information about my education and experience.
+                                                Information about me.
                                             </Text>
                                         </Box>
                                     </VStack>
