@@ -100,7 +100,7 @@ const Projects = ({productions = []}) => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/errys.gif"
+                                                    src="/images/errys.png"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -132,7 +132,7 @@ const Projects = ({productions = []}) => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/timetotrain.gif"
+                                                    src="/images/timetotrain.png"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -163,7 +163,7 @@ const Projects = ({productions = []}) => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/aed.gif"
+                                                    src="/images/aed.png"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -194,7 +194,7 @@ const Projects = ({productions = []}) => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/ummahzorg.gif"
+                                                    src="/images/ummahzorg.png"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -225,7 +225,7 @@ const Projects = ({productions = []}) => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/mahit.gif"
+                                                    src="/images/mahit.png"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -255,7 +255,7 @@ const Projects = ({productions = []}) => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/mooibygerda.gif"
+                                                    src="/images/mooibygerda.png"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
