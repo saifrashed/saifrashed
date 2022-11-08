@@ -94,6 +94,37 @@ const Projects = ({productions = []}) => {
                                             rounded="lg"
                                         >
 
+                                            <a href={"https://www.planbsneakers.nl"} target={"_blank"}>
+                                                <Image
+                                                    w="full"
+                                                    fit="cover"
+                                                    rounded="lg"
+                                                    mt={2}
+                                                    src="/images/planbsneakers.png"
+                                                    transition="all 0.25s"
+                                                    transition-timing-function="spring(1 100 10 10)"
+                                                    _hover={{
+                                                        transform: "translateY(-4px)",
+                                                        shadow: "sm",
+                                                        cursor: "pointer",
+                                                        opacity: "0.5"
+                                                    }}
+                                                />
+                                            </a>
+                                        </Box>
+                                    </Flex>
+
+                                    <Flex
+                                        w="full"
+                                        alignItems="center"
+                                        justifyContent="center"
+                                    >
+                                        <Box
+                                            mx="auto"
+                                            bg={useColorModeValue("white", "gray.800")}
+                                            rounded="lg"
+                                        >
+
                                             <a href={"https://www.errys.nl"} target={"_blank"}>
                                                 <Image
                                                     w="full"
