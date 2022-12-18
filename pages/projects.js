@@ -37,7 +37,7 @@ const Projects = ({productions = []}) => {
                     <Heading as="h1" size="xl">
                         Projects
                     </Heading>
-                    <Text align={"center"}>A showcase of my completed work.</Text>
+                    <Text align={"center"}>Here, you'll find a selection of my completed work, showcasing the projects I've completed.</Text>
                 </VStack>
             </Box>
         );

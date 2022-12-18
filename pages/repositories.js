@@ -40,7 +40,7 @@ const Repositories = ({projects = []}) => {
                     <Heading as="h1" size="xl">
                         Repositories
                     </Heading>
-                    <Text align={"center"}>My various Open Source repositories, available on Github.</Text>
+                    <Text align={"center"}>My public repositories. Feel free to browse through them and use them as you see fit. </Text>
                 </VStack>
             </Box>
         );

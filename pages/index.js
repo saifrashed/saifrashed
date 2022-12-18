@@ -30,10 +30,9 @@ export default function Home() {
                                     Software Engineer 👨‍💻
                                 </Heading>
                                 <Text fontSize={'xl'}>
-                                    Welcome on my website! The buttons below will
-                                    show you around
-                                    and if you have questions you can reach me
-                                    through <b>saifeddinerashed@icloud.com</b>
+                                    Welcome to my website! Feel free to explore using the buttons below, and don't
+                                    hesitate to contact me with any questions at <b>saifeddinerashed@icloud.com</b>. I'm
+                                    happy to help in any way I can.
                                 </Text>
                             </Box>
 

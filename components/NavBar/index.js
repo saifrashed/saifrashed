@@ -61,7 +61,7 @@ const Navbar = () => {
                                     <Avatar
                                         name="Saif Rashed"
                                         size="md"
-                                        src="/images/portrait.jpg"
+                                        src="https://media.licdn.com/dms/image/D4E03AQE8Esa8MZiWFg/profile-displayphoto-shrink_400_400/0/1666407862234?e=1677110400&v=beta&t=Q-HGdfNT3fIczm8Br2YVEruZ86Ng27SUr4H4tGU1sNw"
                                         cursor="pointer"
                                     />
                                 </Link>
