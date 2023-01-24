@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import {Box, Heading, HStack, Link, Stack, Text, VStack} from "@chakra-ui/react";
-import {IoLogoGithub, IoLogoLinkedin} from "react-icons/io";
+import {IoLogoGithub, IoLogoLinkedin, IoLogoTwitter} from "react-icons/io";
 import Footer from "../components/Footer"
 import Container from "../components/container";
 import PageTransition from "../components/page-transitions"
@@ -64,6 +64,21 @@ const About = () => {
                                     >
                                         <HStack spacing={2} alignItems="center">
                                             <Box as={IoLogoLinkedin}/> <Text>LinkedIn</Text>
+                                        </HStack>
+                                    </Link>
+
+                                    <Link
+                                        py={2}
+                                        px={4}
+                                        href="https://twitter.com/sayoefi"
+                                        rounded="md"
+                                        bg="#1A8CD8"
+                                        color="#fff"
+                                        fontWeight="bold"
+                                        isExternal
+                                    >
+                                        <HStack spacing={2} alignItems="center">
+                                            <Box as={IoLogoTwitter}/> <Text>Twitter</Text>
                                         </HStack>
                                     </Link>
                                 </HStack>
