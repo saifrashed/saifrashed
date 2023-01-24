@@ -16,36 +16,6 @@ const Repositories = ({projects = []}) => {
         project.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
-    const searchNode = () => {
-        return (
-            <Box>
-                <Input
-                    bg={cardBgColor[colorMode]}
-                    color={cardColor[colorMode]}
-                    value={searchQuery}
-                    zIndex={0}
-                    onChange={(e) =>
-                        setSearchQuery(e.currentTarget.value)
-                    }
-                    placeholder="Search a project..."
-                />
-            </Box>
-        );
-    };
-
-    const headingNode = () => {
-        return (
-            <Box>
-                <VStack spacing={2} align="center">
-                    <Heading as="h1" size="xl">
-                        Repositories
-                    </Heading>
-                    <Text align={"center"}>My public repositories. Feel free to browse through them and use them as you see fit. </Text>
-                </VStack>
-            </Box>
-        );
-    };
-
 
     const projectsNode = () => {
         if (!sortedProjects.length) {
@@ -120,14 +90,34 @@ const Repositories = ({projects = []}) => {
                     <Stack py={{base: 4, md: 20, xl: 50}}>
 
                         <Head>
-                            <title>Projects 🛠️</title>
+                            <title>Repositories 🛠️</title>
                         </Head>
 
                         <Grid templateColumns="1fr">
                             <Box as="section">
                                 <VStack spacing={8} align="left">
-                                    {headingNode()}
-                                    {searchNode()}
+                                    <Box>
+                                        <VStack spacing={2} align="center">
+                                            <Heading as="h1" size="xl">
+                                                Repositories 🛠️
+                                            </Heading>
+                                            <Text align={"center"}>My public repositories. Feel free to browse through them and use them as you see fit. </Text>
+                                        </VStack>
+                                    </Box>
+
+                                    <Box>
+                                        <Input
+                                            bg={cardBgColor[colorMode]}
+                                            color={cardColor[colorMode]}
+                                            value={searchQuery}
+                                            zIndex={0}
+                                            onChange={(e) =>
+                                                setSearchQuery(e.currentTarget.value)
+                                            }
+                                            placeholder="Search..."
+                                        />
+                                    </Box>
+
                                     {projectsNode()}
 
                                 </VStack>

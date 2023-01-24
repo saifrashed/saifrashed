@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import {Box, ChakraProvider, CSSReset} from "@chakra-ui/react"
 import customTheme from "theme";
-
 import React, {useEffect} from "react";
 import ReactGA from "react-ga";
 import NavBar from '../components/NavBar'

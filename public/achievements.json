@@ -1,5 +1,14 @@
 [
   {
+    "year": 2022,
+    "achievements": [
+      {
+        "title": "University of Applied Sciences Amsterdam · Student Assistent",
+        "description": "Parttime"
+      }
+    ]
+  },
+  {
     "year": 2021,
     "achievements": [
       {
@@ -13,7 +22,7 @@
     "achievements": [
       {
         "title": "HBO ICT Software Developer - University of Applied Sciences Amsterdam",
-        "description": "Education"
+        "description": "Study"
       }
     ]
   },
@@ -42,7 +51,7 @@
     "achievements": [
       {
         "title": "Application -Media Development Niveau 4 - ROC Midden Nederland",
-        "description": "Education"
+        "description": "Study"
       }
     ]
   }

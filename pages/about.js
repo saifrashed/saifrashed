@@ -4,14 +4,12 @@ import {Box, Heading, HStack, Link, Stack, Text, VStack} from "@chakra-ui/react"
 import {IoLogoGithub, IoLogoLinkedin} from "react-icons/io";
 import Footer from "../components/Footer"
 import Container from "../components/container";
-import PageTransition from "../components/page-transitions";
-
-
+import PageTransition from "../components/page-transitions"
 import {Timeline} from 'components/Timeline'
-import achievementList from '../public/data/achievements.json';
+import achievementList from '../public/achievements.json';
 
 
-const AboutPage = () => {
+const About = () => {
     return (
         <>
             <Head>
@@ -26,14 +24,10 @@ const AboutPage = () => {
                             <VStack spacing={8}>
                                 <Box>
                                     <Heading as="h1" size="xl" pb={5} align={"center"}>
-                                        About
+                                        About 🙋‍
                                     </Heading>
                                     <Text align={"center"}>
-                                        I've always been fascinated by the power of programming to solve complex
-                                        problems. It's what drives me to create innovative apps that tackle a wide range
-                                        of issues. My personal goal is to see just how far I can push myself to use
-                                        software to fix increasingly big problems. It's a challenge that I love, and one
-                                        that keeps me constantly motivated to learn and grow as a developer.
+                                        I am driven to create innovative apps that solve complex problems through programming. My goal is to push myself and grow as a result.
                                     </Text>
                                 </Box>
                             </VStack>
@@ -83,4 +77,4 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPage;
+export default About;

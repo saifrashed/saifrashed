@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0d44ba-673b-4350-b49f-518b7fc17e70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/petitemignon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/author-card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/twitter-card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/repositories.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/repositories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/achievements.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/achievements.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/productions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/data/publications.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/lightswitch.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/menu-open.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,11 +187,11 @@
       <recent name="$PROJECT_DIR$/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/public/images/common" />
       <recent name="$PROJECT_DIR$/public/images/productions/womenonstage" />
-      <recent name="$PROJECT_DIR$/public/images/productions/magnificenthairextensions" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
