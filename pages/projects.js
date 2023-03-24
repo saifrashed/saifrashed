@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Footer from "../components/Footer"
-import {Box, Flex, Grid, Heading, Image, Stack, Text, VStack,} from "@chakra-ui/react";
+import { Box, Flex, Grid, Heading, Image, Stack, Text, VStack, } from "@chakra-ui/react";
 import React from "react";
 import Container from "../components/container";
 import PageTransition from "../components/page-transitions";
@@ -10,7 +10,7 @@ const Projects = () => {
         <>
             <PageTransition>
                 <Container>
-                    <Stack py={{base: 4, md: 20, xl: 50}}>
+                    <Stack py={{ base: 4, md: 20, xl: 50 }}>
                         <Head>
                             <title>Projects 🏁</title>
                         </Head>
@@ -29,6 +29,29 @@ const Projects = () => {
                                         </VStack>
                                     </Box>
 
+
+                                    <Flex w="full" alignItems="center" justifyContent="center">
+                                        <Box mx="auto" rounded="lg">
+                                            <a href={"https://teamhulp.nl/"} target={"_blank"}>
+                                                <Image
+                                                    w="full"
+                                                    fit="cover"
+                                                    rounded="lg"
+                                                    mt={2}
+                                                    src="/images/teamhulp.jpeg"
+                                                    transition="all 0.25s"
+                                                    transition-timing-function="spring(1 100 10 10)"
+                                                    _hover={{
+                                                        transform: "translateY(-4px)",
+                                                        shadow: "sm",
+                                                        cursor: "pointer",
+                                                        opacity: "0.5"
+                                                    }}
+                                                />
+                                            </a>
+                                        </Box>
+                                    </Flex>
+
                                     <Flex w="full" alignItems="center" justifyContent="center">
                                         <Box mx="auto" rounded="lg">
                                             <a href={"https://petitemignon.nl/"} target={"_blank"}>
@@ -37,7 +60,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/petitemignon.png"
+                                                    src="/images/petitemignon.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -59,7 +82,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/planbsneakers.png"
+                                                    src="/images/planbsneakers.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -81,7 +104,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/errys.png"
+                                                    src="/images/errys.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -104,7 +127,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/timetotrain.png"
+                                                    src="/images/timetotrain.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -126,7 +149,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/aed.png"
+                                                    src="/images/aed.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -148,7 +171,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/ummahzorg.png"
+                                                    src="/images/ummahzorg.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -170,7 +193,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/mahit.png"
+                                                    src="/images/mahit.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -192,7 +215,7 @@ const Projects = () => {
                                                     fit="cover"
                                                     rounded="lg"
                                                     mt={2}
-                                                    src="/images/mooibygerda.png"
+                                                    src="/images/mooibygerda.jpeg"
                                                     transition="all 0.25s"
                                                     transition-timing-function="spring(1 100 10 10)"
                                                     _hover={{
@@ -212,7 +235,7 @@ const Projects = () => {
                 </Container>
             </PageTransition>
 
-            <Footer/>
+            <Footer />
         </>
     );
 };

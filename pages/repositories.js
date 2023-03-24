@@ -1,18 +1,20 @@
 import Head from "next/head";
 import Footer from "../components/Footer"
-import {Box, Grid, Heading, HStack, Input, SimpleGrid, Stack, Tag, Text, useColorMode, useColorModeValue, VStack} from "@chakra-ui/react";
-import React, {useState} from "react";
+import { Box, Grid, Heading, HStack, Input, SimpleGrid, Stack, Badge, Text, useColorMode, useColorModeValue, VStack } from "@chakra-ui/react";
+import React, { useState } from "react";
 import Container from "../components/container";
 import PageTransition from "../components/page-transitions";
-import {format} from "timeago.js";
+import { format } from "timeago.js";
+import Link from "next/link";
 
-const Repositories = ({projects = []}) => {
 
-    const {colorMode}                   = useColorMode();
-    const cardBgColor                   = {light: "white", dark: "gray.900"};
-    const cardColor                     = {light: "gray.900", dark: "white"};
+const Repositories = ({ projects = [] }) => {
+
+    const { colorMode } = useColorMode();
+    const cardBgColor = { light: "white", dark: "gray.900" };
+    const cardColor = { light: "gray.900", dark: "white" };
     const [searchQuery, setSearchQuery] = useState("");
-    const sortedProjects                = projects.filter((project) =>
+    const sortedProjects = projects.filter((project) =>
         project.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
@@ -30,15 +32,14 @@ const Repositories = ({projects = []}) => {
             <SimpleGrid columns={[1, 2, 2]} spacing={10}>
                 {sortedProjects.map((project, index) => {
                     return (
-                        <div  key={index}>
-                            <a href={project.html_url} target="_blank" rel="noopener">
+                        <div key={index}>
+                            <Link href={project.html_url}>
                                 <Box
-                                    as="a"
                                     cursor="pointer"
                                     w="100%"
                                     transition="all 0.25s"
                                     transition-timing-function="spring(1 100 10 10)"
-                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
                                 >
                                     <VStack
                                         align="start"
@@ -50,7 +51,7 @@ const Repositories = ({projects = []}) => {
                                         spacing={0}
                                         transition="all 0.25s"
                                         transition-timing-function="spring(1 100 10 10)"
-                                        _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                        _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
                                     >
                                         <HStack>
                                             <Text
@@ -59,12 +60,12 @@ const Repositories = ({projects = []}) => {
                                                 fontSize="xl"
                                             >
                                                 {project.name}{" "}
-                                                {new Date() - new Date() < 1000 * 60 * 60 * 24 * 7 ? (
-                                                    <Tag size="md" mt={1} ml={1} colorScheme="purple">
-                                                        {project.language}
-                                                    </Tag>
-                                                ) : undefined}
+
                                             </Text>
+
+                                            <Badge size="md" mt={1} ml={1} colorScheme="purple">
+                                                {project.language}
+                                            </Badge>
                                         </HStack>
 
                                         <Text fontSize="lg" color={useColorModeValue("gray.700", "gray.50")}>
@@ -75,7 +76,7 @@ const Repositories = ({projects = []}) => {
                                         </Text>
                                     </VStack>
                                 </Box>
-                            </a>
+                            </Link>
                         </div>
                     );
                 })}
@@ -87,7 +88,7 @@ const Repositories = ({projects = []}) => {
         <>
             <PageTransition>
                 <Container>
-                    <Stack py={{base: 4, md: 20, xl: 50}}>
+                    <Stack py={{ base: 4, md: 20, xl: 50 }}>
 
                         <Head>
                             <title>Repositories 🛠️</title>
@@ -128,13 +129,13 @@ const Repositories = ({projects = []}) => {
 
             </PageTransition>
 
-            <Footer/>
+            <Footer />
         </>
     );
 };
 
-export async function getStaticProps() {
-    const res      = await fetch(`https://api.github.com/users/saifrashed/repos?per_page=100`);
+export async function getServerSideProps() {
+    const res = await fetch(`https://api.github.com/users/saifrashed/repos?per_page=100`);
     const projects = await res.json();
 
     return {

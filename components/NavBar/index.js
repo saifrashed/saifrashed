@@ -18,16 +18,16 @@ import {
     VStack
 } from "@chakra-ui/react";
 import Link from "next/link";
-import {IoMdMoon, IoMdSunny} from "react-icons/io";
-import {HamburgerIcon} from "@chakra-ui/icons";
+import { IoMdMoon, IoMdSunny } from "react-icons/io";
+import { HamburgerIcon } from "@chakra-ui/icons";
 import Container from "../container";
 
 
 const Navbar = () => {
-    const {colorMode, toggleColorMode} = useColorMode();
-    const navbarSectionBgColor = {light: "white", dark: "gray.900"};
-    const navbarSectionColor = {light: "dark.900", dark: "white"};
-    const {isOpen, onOpen, onClose} = useDisclosure();
+    const { colorMode, toggleColorMode } = useColorMode();
+    const navbarSectionBgColor = { light: "white", dark: "gray.900" };
+    const navbarSectionColor = { light: "dark.900", dark: "white" };
+    const { isOpen, onOpen, onClose } = useDisclosure();
 
     const handleThemeColorClick = () => {
         toggleColorMode();
@@ -56,15 +56,12 @@ const Navbar = () => {
                     <HStack justifyContent="space-between" alignItems="center" py={4}>
                         <Box d="flex" alignItems="center">
                             <Link href="/">
-
-                                <Link href="/">
-                                    <Avatar
-                                        name="Saif Rashed"
-                                        size="md"
-                                        src="/images/portrait.jpeg"
-                                        cursor="pointer"
-                                    />
-                                </Link>
+                                <Avatar
+                                    name="Saif Rashed"
+                                    size="md"
+                                    src="/images/portrait.jpeg"
+                                    cursor="pointer"
+                                />
                             </Link>
                         </Box>
                         <Box d="flex" alignItems="center">
@@ -111,14 +108,14 @@ const Navbar = () => {
                             <IconButton
                                 aria-label="Switch to light theme"
                                 icon=
-                                    {
-                                        colorMode === "dark" ? (
-                                            <IoMdSunny/>
-                                        ) : (
-                                            <IoMdMoon/>
-                                        )
+                                {
+                                    colorMode === "dark" ? (
+                                        <IoMdSunny />
+                                    ) : (
+                                        <IoMdMoon />
+                                    )
 
-                                    }
+                                }
                                 onClick={handleThemeColorClick}
                                 variant="ghost"
                             />
@@ -129,43 +126,30 @@ const Navbar = () => {
                     <HStack justifyContent="space-between" alignItems="center" py={4}>
                         <Box d="flex" alignItems="center">
                             <Link href="/">
-
-                                <Link href="/">
-                                    <Avatar
-                                        name="Saif Rashed"
-                                        size="md"
-                                        src="/images/portrait.jpeg"
-                                        cursor="pointer"
-                                    />
-                                </Link>
+                                <Avatar
+                                    name="Saif Rashed"
+                                    size="md"
+                                    src="/images/portrait.jpeg"
+                                    cursor="pointer"
+                                />
                             </Link>
                         </Box>
                         <Box d="flex" alignItems="center">
-                            <Box>
+                            <HStack>
                                 <IconButton
                                     aria-label="Switch to light theme"
-                                    icon=
-                                        {
-                                            colorMode === "dark" ? (
-                                                <IoMdSunny/>
-                                            ) : (
-                                                <IoMdMoon/>
-                                            )
-
-                                        }
+                                    icon={colorMode === "dark" ? <IoMdSunny /> : <IoMdMoon />}
                                     onClick={handleThemeColorClick}
                                     variant="ghost"
                                 />
-                            </Box>
-                            <Button onClick={() => {
-                                onOpen();
-                            }} variant="ghost" px={0}>
-                                <HamburgerIcon/>
-                            </Button>
+                                <Button onClick={onOpen} variant="ghost" px={0}>
+                                    <HamburgerIcon />
+                                </Button>
+                            </HStack>
                             <Drawer placement={'top'} onClose={onClose} isOpen={isOpen}>
-                                <DrawerOverlay/>
+                                <DrawerOverlay />
                                 <DrawerContent borderBottomRadius="6px">
-                                    <DrawerCloseButton/>
+                                    <DrawerCloseButton />
                                     <DrawerHeader>Menu</DrawerHeader>
                                     <DrawerBody py={4}>
                                         <VStack>

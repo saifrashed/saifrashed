@@ -1,11 +1,11 @@
 import React from "react";
 import Head from "next/head";
-import {Box, Heading, HStack, Link, Stack, Text, VStack} from "@chakra-ui/react";
-import {IoLogoGithub, IoLogoLinkedin, IoLogoTwitter} from "react-icons/io";
+import { Box, Heading, HStack, Link, Stack, Text, VStack } from "@chakra-ui/react";
+import { IoLogoGithub, IoLogoLinkedin, IoLogoTwitter } from "react-icons/io";
 import Footer from "../components/Footer"
 import Container from "../components/container";
 import PageTransition from "../components/page-transitions"
-import {Timeline} from 'components/Timeline'
+import { Timeline } from 'components/Timeline'
 import achievementList from '../public/achievements.json';
 
 
@@ -19,7 +19,7 @@ const About = () => {
             <PageTransition>
                 <Container>
 
-                    <Stack py={{base: 4, md: 20, xl: 50}}>
+                    <Stack py={{ base: 4, md: 20, xl: 50 }}>
                         <VStack spacing={8}>
                             <VStack spacing={8}>
                                 <Box>
@@ -33,7 +33,7 @@ const About = () => {
                             </VStack>
 
                             <VStack align="left">
-                                <Timeline timelineList={achievementList}/>
+                                <Timeline timelineList={achievementList} />
                             </VStack>
 
                             <Box d="flex" alignItems="center">
@@ -46,10 +46,9 @@ const About = () => {
                                         bg="#333"
                                         color="#fff"
                                         fontWeight="bold"
-                                        isExternal
                                     >
                                         <HStack spacing={2} alignItems="center">
-                                            <Box as={IoLogoGithub}/> <Text>Github</Text>
+                                            <Box as={IoLogoGithub} /> <Text>Github</Text>
                                         </HStack>
                                     </Link>
                                     <Link
@@ -60,10 +59,9 @@ const About = () => {
                                         bg="#0e76a8"
                                         color="#fff"
                                         fontWeight="bold"
-                                        isExternal
                                     >
                                         <HStack spacing={2} alignItems="center">
-                                            <Box as={IoLogoLinkedin}/> <Text>LinkedIn</Text>
+                                            <Box as={IoLogoLinkedin} /> <Text>LinkedIn</Text>
                                         </HStack>
                                     </Link>
 
@@ -75,10 +73,10 @@ const About = () => {
                                         bg="#1A8CD8"
                                         color="#fff"
                                         fontWeight="bold"
-                                        isExternal
+
                                     >
                                         <HStack spacing={2} alignItems="center">
-                                            <Box as={IoLogoTwitter}/> <Text>Twitter</Text>
+                                            <Box as={IoLogoTwitter} /> <Text>Twitter</Text>
                                         </HStack>
                                     </Link>
                                 </HStack>
@@ -87,7 +85,7 @@ const About = () => {
                     </Stack>
                 </Container>
             </PageTransition>
-            <Footer/>
+            <Footer />
         </>
     );
 };

@@ -1,5 +1,5 @@
 import Footer from "../components/Footer"
-import {Box, Flex, Heading, HStack, Image, Stack, Tag, Text, useColorModeValue, VStack,} from '@chakra-ui/react';
+import { Box, Flex, Heading, HStack, Image, Stack, Tag, Text, useColorModeValue, VStack, } from '@chakra-ui/react';
 import Container from "../components/container";
 import React from "react";
 import Link from "next/link";
@@ -11,18 +11,18 @@ export default function Home() {
             <PageTransition>
                 <Box position={'relative'}>
                     <Container>
-                        <Stack py={{base: 4, md: 20, xl: 50}}>
-                            <Box mb={{base: 8, md: 20}}>
+                        <Stack py={{ base: 4, md: 20, xl: 50 }}>
+                            <Box mb={{ base: 8, md: 20 }}>
 
                                 <Text
                                     fontSize="4xl"
                                     fontWeight="extrabold"
                                 >
 
-                                        <span style={{
-                                            background: "linear(to-l, #95ccff,#4299e1)",
-                                            backgroundClip: "text"
-                                        }}> Hello, i'm Saif Rashed</span> 👋
+                                    <span style={{
+                                        background: "linear(to-l, #95ccff,#4299e1)",
+                                        backgroundClip: "text"
+                                    }}> Hello, i'm Saif Rashed</span> 👋
                                 </Text>
                                 <Heading
                                     mb={5}
@@ -36,7 +36,7 @@ export default function Home() {
                                 </Text>
                             </Box>
 
-                            <Link href={"/projects"} isExternal>
+                            <Link href={"/projects"}>
                                 <HStack
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
@@ -51,7 +51,7 @@ export default function Home() {
                                     spacing={4}
                                     transition="all 0.25s"
                                     transition-timing-function="spring(1 100 10 10)"
-                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
                                 >
 
 
@@ -85,7 +85,7 @@ export default function Home() {
                                 </HStack>
                             </Link>
 
-                            <Link href={"/repositories"} isExternal>
+                            <Link href={"/repositories"}>
                                 <HStack
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
@@ -100,7 +100,7 @@ export default function Home() {
                                     spacing={4}
                                     transition="all 0.25s"
                                     transition-timing-function="spring(1 100 10 10)"
-                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
                                 >
 
 
@@ -134,7 +134,7 @@ export default function Home() {
                                 </HStack>
                             </Link>
 
-                            <Link href={"/about"} isExternal>
+                            <Link href={"/about"}>
                                 <HStack
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
@@ -149,7 +149,7 @@ export default function Home() {
                                     spacing={4}
                                     transition="all 0.25s"
                                     transition-timing-function="spring(1 100 10 10)"
-                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
                                 >
                                     <VStack spacing={1} align="left">
                                         <Box>
@@ -181,10 +181,10 @@ export default function Home() {
                                 </HStack>
                             </Link>
 
-                            <hr style={{margin: "20px 0px"}}/>
+                            <hr style={{ margin: "20px 0px" }} />
 
-                            <Link href={"https://www.ticketflip.nl"} target={"_blank"} unstyled>
-                                <HStack
+                            <Link href={"https://www.ticketflip.nl"} target={"_blank"}>
+                                <Flex
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
                                     rounded="xl"
@@ -198,7 +198,11 @@ export default function Home() {
                                     spacing={4}
                                     transition="all 0.25s"
                                     transition-timing-function="spring(1 100 10 10)"
-                                    _hover={{transform: "translateY(-4px)", shadow: "sm"}}
+                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
+                                    display="flex"
+                                    flexWrap="wrap"
+                                    alignItems="center"
+
                                 >
                                     <Box
                                         rounded="lg"
@@ -207,6 +211,10 @@ export default function Home() {
                                         overflow="hidden"
                                         lineHeight={0}
                                         boxShadow="inset 0 0 1px 1px rgba(0, 0, 0, 0.04)"
+                                        flex="none"
+                                        width="50px"
+                                        height="50px"
+                                        marginEnd={"2"}
                                     >
                                         <Box
                                             position="absolute"
@@ -219,40 +227,38 @@ export default function Home() {
                                         ></Box>
                                         <Image
                                             src={"/images/ticketflip.svg"}
-                                            height="50"
-                                            width="50"
+
                                             layout="fixed"
                                             rounded="md"
                                         ></Image>
                                     </Box>
 
-                                    <VStack align="start" justify="flex-start" spacing={1}>
-                                        <VStack spacing={0} align="start">
-                                            <HStack>
-                                                <Text fontWeight="bold" fontSize="md" noOfLines={2}>
-                                                    Ticketflip.nl
+                                    <Box flex="1">
+                                        <VStack align="start" justify="flex-start" spacing={1}>
+                                            <VStack spacing={0} align="start">
+                                                <HStack>
+                                                    <Text fontWeight="bold" fontSize="md" noOfLines={2}>
+                                                        Ticketflip.nl
+                                                    </Text>
+                                                </HStack>
+                                                <Text
+                                                    fontSize="sm"
+                                                    color={useColorModeValue("neutral.1000", "neutralD.1000")}
+                                                >
+                                                    All basic components of event management for a low fixed transaction fee.
                                                 </Text>
-                                                <Tag size="sm" colorScheme={"orange"}>
-                                                    Web App
-                                                </Tag>
-                                            </HStack>
-                                            <Text
-                                                fontSize="sm"
-                                                color={useColorModeValue("neutral.1000", "neutralD.1000")}
-                                            >
-                                                All basic components of event management for a low fixed
-                                                transaction fee.
-                                            </Text>
+                                            </VStack>
                                         </VStack>
-                                    </VStack>
-                                </HStack>
+                                    </Box>
+                                </Flex>
                             </Link>
+
                         </Stack>
                     </Container>
                 </Box>
             </PageTransition>
 
-            <Footer/>
+            <Footer />
         </>
     )
 }
