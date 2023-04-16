@@ -1,5 +1,14 @@
 [
   {
+    "year": 2023,
+    "achievements": [
+      {
+        "title": "Pre-master Software Engineer - University of Amsterdam",
+        "description": "Education"
+      }
+    ]
+  },
+  {
     "year": 2022,
     "achievements": [
       {
@@ -21,8 +30,8 @@
     "year": 2020,
     "achievements": [
       {
-        "title": "HBO ICT Software Developer - University of Applied Sciences Amsterdam",
-        "description": "Study"
+        "title": "HBO ICT Software Engineer - University of Applied Sciences Amsterdam",
+        "description": "Education"
       }
     ]
   },
@@ -32,7 +41,6 @@
       {
         "title": "BlueBloq - SEO & Online marketing",
         "description": "Internship, Parttime"
-
       }
     ]
   },
@@ -42,7 +50,6 @@
       {
         "title": "Blue Mammoth - WordPress specialist",
         "description": "Internship, Parttime"
-
       }
     ]
   },
@@ -51,7 +58,7 @@
     "achievements": [
       {
         "title": "Application -Media Development Niveau 4 - ROC Midden Nederland",
-        "description": "Study"
+        "description": "Education"
       }
     ]
   }
