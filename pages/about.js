@@ -91,3 +91,15 @@ const About = () => {
 };
 
 export default About;
+
+
+
+// {
+//     "year": 2017,
+//     "achievements": [
+//       {
+//         "title": "Application -Media Development Niveau 4 - ROC Midden Nederland",
+//         "description": "Education"
+//       }
+//     ]
+//   }
