@@ -36,55 +36,6 @@ export default function Home() {
                                 </Text>
                             </Box>
 
-                            <Link href={"/projects"}>
-                                <HStack
-                                    p={4}
-                                    bg={useColorModeValue("white", "gray.800")}
-                                    rounded="xl"
-                                    cursor="pointer"
-                                    borderWidth="1px"
-                                    borderColor={useColorModeValue("gray.100", "gray.700")}
-                                    w="100%"
-                                    h="100%"
-                                    textAlign="left"
-                                    align="start"
-                                    spacing={4}
-                                    transition="all 0.25s"
-                                    transition-timing-function="spring(1 100 10 10)"
-                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
-                                >
-
-
-                                    <VStack spacing={1} align="left">
-                                        <Box>
-                                            <Flex
-                                                display="flex"
-                                                flexDirection="row"
-                                                alignItems="center"
-                                                justifyContent="flex-start"
-                                                pb={2}
-                                            >
-                                                <Heading
-                                                    size="md"
-                                                    as="h2"
-                                                    lineHeight="shorter"
-                                                    fontWeight="bold"
-                                                    fontFamily="heading"
-                                                >
-                                                    Projects ✨
-                                                </Heading>
-                                            </Flex>
-                                        </Box>
-
-                                        <Box>
-                                            <Text fontSize="md" color="gray.600">
-                                                A showcase of my completed work.
-                                            </Text>
-                                        </Box>
-                                    </VStack>
-                                </HStack>
-                            </Link>
-
                             <Link href={"/repositories"}>
                                 <HStack
                                     p={4}
@@ -183,7 +134,79 @@ export default function Home() {
 
                             <hr style={{ margin: "20px 0px" }} />
 
+
+
                             <Link href={"https://www.ticketflip.nl"} target={"_blank"}>
+                                <Flex
+                                    p={4}
+                                    bg={useColorModeValue("white", "gray.800")}
+                                    rounded="xl"
+                                    cursor="pointer"
+                                    borderWidth="1px"
+                                    borderColor={useColorModeValue("gray.100", "gray.700")}
+                                    w="100%"
+                                    h="100%"
+                                    textAlign="left"
+                                    align="start"
+                                    spacing={4}
+                                    transition="all 0.25s"
+                                    transition-timing-function="spring(1 100 10 10)"
+                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
+                                    display="flex"
+                                    flexWrap="wrap"
+                                    alignItems="center"
+
+                                >
+                                    <Box
+                                        rounded="lg"
+                                        p={2}
+                                        position="relative"
+                                        overflow="hidden"
+                                        lineHeight={0}
+                                        boxShadow="inset 0 0 1px 1px rgba(0, 0, 0, 0.04)"
+                                        flex="none"
+                                        width="50px"
+                                        height="50px"
+                                        marginEnd={"2"}
+                                    >
+                                        <Box
+                                            position="absolute"
+                                            top={0}
+                                            bottom={0}
+                                            left={0}
+                                            right={0}
+                                            opacity={0.25}
+                                            bg={"#000"}
+                                        ></Box>
+                                        <Image
+                                            src={"/images/oufaska.svg"}
+                                            layout="fixed"
+                                            rounded="md"
+                                        ></Image>
+                                    </Box>
+
+                                    <Box flex="1">
+                                        <VStack align="start" justify="flex-start" spacing={1}>
+                                            <VStack spacing={0} align="start">
+                                                <HStack>
+                                                    <Text fontWeight="bold" fontSize="md" noOfLines={2}>
+                                                        oufaska.com
+                                                    </Text>
+                                                </HStack>
+                                                <Text
+                                                    fontSize="sm"
+                                                    color={useColorModeValue("neutral.1000", "neutralD.1000")}
+                                                >
+                                                    Designing platforms for brands ranging from websites to apps.
+                                                </Text>
+                                            </VStack>
+                                        </VStack>
+                                    </Box>
+
+                                </Flex>
+                            </Link>
+
+                            <Link href={"https://www.oufaska.com"} target={"_blank"}>
                                 <Flex
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
@@ -238,7 +261,7 @@ export default function Home() {
                                             <VStack spacing={0} align="start">
                                                 <HStack>
                                                     <Text fontWeight="bold" fontSize="md" noOfLines={2}>
-                                                        Ticketflip.nl
+                                                        ticketflip.nl
                                                     </Text>
                                                 </HStack>
                                                 <Text
@@ -250,6 +273,7 @@ export default function Home() {
                                             </VStack>
                                         </VStack>
                                     </Box>
+
                                 </Flex>
                             </Link>
 

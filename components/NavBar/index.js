@@ -22,7 +22,6 @@ import { IoMdMoon, IoMdSunny } from "react-icons/io";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import Container from "../container";
 
-
 const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode();
     const navbarSectionBgColor = { light: "white", dark: "gray.900" };
@@ -36,7 +35,6 @@ const Navbar = () => {
     const handleMenuItemClick = () => {
         onClose();
     }
-
 
     return (
         <Box
@@ -66,18 +64,6 @@ const Navbar = () => {
                         </Box>
                         <Box d="flex" alignItems="center">
                             <Menu>
-                                <Link href={"/projects"}>
-                                    <Button
-                                        variant="ghost"
-                                        size="md"
-                                        _activeLink={{
-                                            color: useColorModeValue("blue.500", "blue.200"),
-                                        }}
-                                        px={4}
-                                    >
-                                        Projects
-                                    </Button>
-                                </Link>
                                 <Link href={"/repositories"}>
                                     <Button
                                         variant="ghost"
@@ -153,18 +139,6 @@ const Navbar = () => {
                                     <DrawerHeader>Menu</DrawerHeader>
                                     <DrawerBody py={4}>
                                         <VStack>
-                                            <Link href={"/projects"}>
-                                                <Button
-                                                    size="lg"
-                                                    w="100%"
-                                                    _activeLink={{
-                                                        color: useColorModeValue("blue.500", "blue.200"),
-                                                    }}
-                                                    onClick={handleMenuItemClick}
-                                                >
-                                                    Projects
-                                                </Button>
-                                            </Link>
                                             <Link href={"/repositories"}>
                                                 <Button
                                                     size="lg"
