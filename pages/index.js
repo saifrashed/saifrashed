@@ -206,7 +206,7 @@ export default function Home() {
                                 </Flex>
                             </Link>
 
-                            <Link href={"https://www.oufaska.com"} target={"_blank"}>
+                            <Link href={"https://www.ticketflip.nl"} target={"_blank"}>
                                 <Flex
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
