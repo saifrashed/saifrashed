@@ -275,7 +275,7 @@ export default function Home() {
                                 </Flex>
                             </Link>
 
-                            <Link href={"https://www.writespace.nl"} target={"_blank"}>
+                            {/* <Link href={"https://www.writespace.nl"} target={"_blank"}>
                                 <Flex
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
@@ -344,7 +344,7 @@ export default function Home() {
                                     </Box>
 
                                 </Flex>
-                            </Link>
+                            </Link> */}
 
                         </Stack>
                     </Container>
