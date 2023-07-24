@@ -275,7 +275,7 @@ export default function Home() {
                                 </Flex>
                             </Link>
 
-                            {/* <Link href={"https://www.writespace.nl"} target={"_blank"}>
+                            <Link href={"https://www.hijabai.com"} target={"_blank"}>
                                 <Flex
                                     p={4}
                                     bg={useColorModeValue("white", "gray.800")}
@@ -315,10 +315,10 @@ export default function Home() {
                                             left={0}
                                             right={0}
                                             opacity={0.25}
-                                            bg={"#95D6EA"}
+                                            bg={"#dbc2ac"}
                                         ></Box>
                                         <Image
-                                            src={"/images/writespace.png"}
+                                            src={"https://www.hijabai.com/images/icon.png"}
 
                                             layout="fixed"
                                             rounded="md"
@@ -330,21 +330,21 @@ export default function Home() {
                                             <VStack spacing={0} align="start">
                                                 <HStack>
                                                     <Text fontWeight="bold" fontSize="md" noOfLines={2}>
-                                                        writespace.nl
+                                                        hijabai.com
                                                     </Text>
                                                 </HStack>
                                                 <Text
                                                     fontSize="sm"
                                                     color={useColorModeValue("neutral.1000", "neutralD.1000")}
                                                 >
-                                                    Built with a team of 11 UvA students, making scientific writing exciting again.
+                                                    Virtual AI Hijab Try On for Females
                                                 </Text>
                                             </VStack>
                                         </VStack>
                                     </Box>
 
                                 </Flex>
-                            </Link> */}
+                            </Link>
 
                         </Stack>
                     </Container>
