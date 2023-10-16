@@ -65,7 +65,7 @@ const About = () => {
                                         </HStack>
                                     </Link>
 
-                                    <Link
+                                    {/* <Link
                                         py={2}
                                         px={4}
                                         href="https://twitter.com/sayoefi"
@@ -78,7 +78,7 @@ const About = () => {
                                         <HStack spacing={2} alignItems="center">
                                             <Box as={IoLogoTwitter} /> <Text>Twitter</Text>
                                         </HStack>
-                                    </Link>
+                                    </Link> */}
                                 </HStack>
                             </Box>
                         </VStack>
