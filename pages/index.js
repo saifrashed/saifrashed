@@ -492,7 +492,7 @@ export default function Home() {
                                                     fontSize="sm"
                                                     color={useColorModeValue("neutral.1000", "neutralD.1000")}
                                                 >
-                                                    Learn, Master, and Perfect Arabic with AI-Powered Tutors.
+                                                    Prototyping made easy.
                                                 </Text>
                                             </VStack>
                                         </VStack>
