@@ -1,10 +1,37 @@
 [
   {
+    "year": 2024,
+    "achievements": [
+      {
+        "title": "Rabobank Utrecht, Current Account & Routing",
+        "description": "Internship"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "achievements": [
+      {
+        "title": "CERN Alice, Software Engineer Placement",
+        "description": "Internship"
+      }
+    ]
+  },
+  {
     "year": 2023,
     "achievements": [
       {
         "title": "Pre-master Software Engineer - University of Amsterdam",
         "description": "Education"
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "achievements": [
+      {
+        "title": "Amsterdam Internet Exchange, Software Engineer Placement",
+        "description": "Internship"
       }
     ]
   },
@@ -21,7 +48,7 @@
     "year": 2021,
     "achievements": [
       {
-        "title": "Rabobank Utrecht, ICT Software Engineer",
+        "title": "Rabobank Utrecht, FLR Channel Management",
         "description": "Internship"
       }
     ]
