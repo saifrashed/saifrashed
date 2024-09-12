@@ -11,9 +11,7 @@ const Footer = () => {
         >
 
             <Text fontSize="sm">
-                Copyright  &copy; {new Date().getFullYear()} Saif Rashed, <Link
-                    href='https://www.kvk.nl/orderstraat/product-kiezen/?kvknummer=777444380000'
-                >77744438</Link>
+                Copyright  &copy; {new Date().getFullYear()} Saif Rashed
             </Text>
         </Box>
     );

@@ -27,7 +27,7 @@ const About = () => {
                                         About 🙋‍
                                     </Heading>
                                     <Text align={"center"}>
-                                        I am driven to create innovative apps that solve complex problems through programming. My goal is to push myself and grow as a result.
+                                        I am driven to develop innovative solutions that have <b>real</b> value for people.
                                     </Text>
                                 </Box>
                             </VStack>
@@ -65,20 +65,18 @@ const About = () => {
                                         </HStack>
                                     </Link>
 
-                                    {/* <Link
+                                    <Link
                                         py={2}
                                         px={4}
-                                        href="https://twitter.com/sayoefi"
+                                        href="https://x.com/sayoefi"
                                         rounded="md"
-                                        bg="#1A8CD8"
+                                        bg="#000"
                                         color="#fff"
                                         fontWeight="bold"
 
                                     >
-                                        <HStack spacing={2} alignItems="center">
-                                            <Box as={IoLogoTwitter} /> <Text>Twitter</Text>
-                                        </HStack>
-                                    </Link> */}
+                                        𝕏
+                                    </Link>
                                 </HStack>
                             </Box>
                         </VStack>

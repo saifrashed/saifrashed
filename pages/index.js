@@ -24,11 +24,6 @@ export default function Home() {
                                         backgroundClip: "text"
                                     }}> Hello, i'm Saif Rashed</span> 👋
                                 </Text>
-                                <Heading
-                                    mb={5}
-                                    fontSize="3xl">
-                                    Software Engineer 👨‍💻
-                                </Heading>
                                 <Text fontSize={'xl'}>
                                     Welcome to my website! Feel free to explore using the buttons below, and don't
                                     hesitate to contact me with any questions at <b>saifeddinerashed@icloud.com</b>. I'm
