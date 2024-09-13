@@ -31,6 +31,55 @@ export default function Home() {
                                 </Text>
                             </Box>
 
+                            <Link href={"https://store.saifrashed.com"}>
+                                <HStack
+                                    p={4}
+                                    bg={useColorModeValue("white", "gray.800")}
+                                    rounded="xl"
+                                    cursor="pointer"
+                                    borderWidth="1px"
+                                    borderColor={useColorModeValue("gray.100", "gray.700")}
+                                    w="100%"
+                                    h="100%"
+                                    textAlign="left"
+                                    align="start"
+                                    spacing={4}
+                                    transition="all 0.25s"
+                                    transition-timing-function="spring(1 100 10 10)"
+                                    _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
+                                >
+
+
+                                    <VStack spacing={1} align="left">
+                                        <Box>
+                                            <Flex
+                                                display="flex"
+                                                flexDirection="row"
+                                                alignItems="center"
+                                                justifyContent="flex-start"
+                                                pb={2}
+                                            >
+                                                <Heading
+                                                    size="md"
+                                                    as="h2"
+                                                    lineHeight="shorter"
+                                                    fontWeight="bold"
+                                                    fontFamily="heading"
+                                                >
+                                                    Store 🛒
+                                                </Heading>
+                                            </Flex>
+                                        </Box>
+
+                                        <Box>
+                                            <Text fontSize="md" color="gray.600">
+                                                Shop high quality digital products.
+                                            </Text>
+                                        </Box>
+                                    </VStack>
+                                </HStack>
+                            </Link>
+
                             <Link href={"/repositories"}>
                                 <HStack
                                     p={4}

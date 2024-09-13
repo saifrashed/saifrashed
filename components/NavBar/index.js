@@ -64,6 +64,18 @@ const Navbar = () => {
                         </Box>
                         <Box d="flex" alignItems="center">
                             <Menu>
+                                <Link href={"https://store.saifrashed.com"}>
+                                    <Button
+                                        variant="ghost"
+                                        size="md"
+                                        _activeLink={{
+                                            color: useColorModeValue("blue.500", "blue.200"),
+                                        }}
+                                        px={4}
+                                    >
+                                        Store
+                                    </Button>
+                                </Link>
                                 <Link href={"/repositories"}>
                                     <Button
                                         variant="ghost"
@@ -139,6 +151,18 @@ const Navbar = () => {
                                     <DrawerHeader>Menu</DrawerHeader>
                                     <DrawerBody py={4}>
                                         <VStack>
+                                            <Link href={"https://store.saifrashed.com/"}>
+                                                <Button
+                                                    size="lg"
+                                                    w="100%"
+                                                    _activeLink={{
+                                                        color: useColorModeValue("blue.500", "blue.200"),
+                                                    }}
+                                                    onClick={handleMenuItemClick}
+                                                >
+                                                    Store
+                                                </Button>
+                                            </Link>
                                             <Link href={"/repositories"}>
                                                 <Button
                                                     size="lg"
