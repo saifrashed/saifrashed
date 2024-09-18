@@ -65,7 +65,7 @@ const About = () => {
                                         </HStack>
                                     </Link>
 
-                                    <Link
+                                    {/* <Link
                                         py={2}
                                         px={4}
                                         href="https://x.com/sayoefi"
@@ -76,7 +76,7 @@ const About = () => {
 
                                     >
                                         𝕏
-                                    </Link>
+                                    </Link> */}
                                 </HStack>
                             </Box>
                         </VStack>
