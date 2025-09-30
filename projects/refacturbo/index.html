@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N222GS69');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refacturbo</title>
+</head>
+
+<body>
+  <main style="max-width: 500px; margin: auto; padding: 20px">
+    <a href="../../projects.html">Back to home</a>
+
+    <h1>Refacturbo (master thesis)</h1>
+    <a href="https://github.com/saifrashed/refacturbo" target="_blank">See repository</a>
+    <a href="./thesis.pdf" target="_blank">Download full thesis</a>
+
+    <figure>
+      <img src="./cover.jpg" alt="University of Amsterdam Science park" width="100%" />
+      <figcaption style="text-align: center;"><b>Figure 1:</b> University of Amsterdam Science park</figcaption>
+    </figure>
+
+    <section>
+      <p>
+        The research, named "LLMs to Automatically Refactor Green Code Anti-Patterns", explores how large language
+        models (LLMs) can be used to automatically refactor
+        known green anti-patterns in code for better energy efficiency. By integrating a static analysis
+        engine that identifies problematic code segments and generating targeted prompts for an LLM to
+        rewrite those segments, we automate a significant part of the refactoring process.
+      </p>
+
+
+      <h2>Key Steps</h2>
+      <figure>
+        <img src="./architecture.png" alt="High-level architecture of the refactoring pipeline" style="width: 100%;">
+        <figcaption style="text-align: center;"><b>Figure 2:</b> Architecture of Refacturbo</figcaption>
+      </figure>
+
+      <ol>
+        <li><strong>Static Analysis:</strong> Code is scanned with rules that detect green anti-patterns (e.g.,
+          excessive string concatenation in loops, if-else chains instead of switch statements).</li>
+        <li><strong>Prompt Generation:</strong> For each detected pattern, we create prompts detailing how the code
+          should be improved to reduce energy consumption.</li>
+        <li><strong>LLM Refactoring:</strong> The prompts and relevant code snippets are passed to a language
+          model (e.g., GPT-4) to produce refactored code.</li>
+        <li><strong>Code Replacement:</strong> The generated optimized code snippets replace the original code
+          automatically, with a human-in-the-loop step for validation.</li>
+      </ol>
+
+      <h2>Implementation Highlights</h2>
+      <ul>
+        <li><strong>Modular Pipeline:</strong> Analysis and refactoring are separated,
+          ensuring maintainability and clearer workflows.</li>
+        <li><strong>Rule-Based Detection:</strong> Adapted from performance and energy
+          standards (ISO/IEC specifications, EcoCode, Sonar rules).</li>
+        <li><strong>Integration with Semgrep:</strong> Collects detailed metadata such as line numbers and file
+          paths, streamlining the insertion of new code.</li>
+        <li><strong>Multiple Prompt Strategies:</strong> Explored zero-shot, one-shot, few-shot,
+          and chain-of-thought approaches to see how they influence energy efficiency.</li>
+      </ul>
+
+      <h2>Energy evaluation methodology</h2>
+      <p>
+        To assess the energy efficiency of refactored code, the evaluation follows a structured experimental
+        methodology. For each test scenario, programs representing specific code anti-patterns and their refactored
+        versions are executed on a controlled Device Under Test (DUT). Before each run, the DUT is prepared by disabling
+        non-essential processes and measuring baseline idle energy consumption. The energy usage during program
+        execution is collected using Intel RAPL-based sensors accessed via the powermetrics utility at a fixed sampling
+        interval. Power samples, timestamped at 2Hz, are integrated with the composite trapezoidal rule to calculate
+        total energy consumed (in Joules), and baseline values are subtracted to correct for background usage.
+      </p>
+
+      <figure>
+        <img src="experiment.png" alt="Experiment orchestration" style="width: 100%;">
+        <figcaption style="text-align: center;"><b>Figure 3:</b> Experiment orchestration</figcaption>
+      </figure>
+
+
+
+      <p>
+        Each test
+        is repeated multiple times for statistical robustness, and the compiled measurements are analyzed using
+        statistical tests (e.g., Shapiro-Wilk, Mann-Whitney U) to determine the significance of energy differences
+        between code variants.
+      </p>
+
+      <h2>Experimental Results</h2>
+      <p>
+        Three Java programs were tested, each containing a different anti-pattern. Measurements used
+        system-level power metrics at 2 Hz sampling. Results showed:
+      </p>
+      <ul>
+        <li>Refactored versions reduced energy usage by an average of about 82% (ranging 64%–90%).</li>
+        <li>All prompt strategies consistently outperformed the unoptimized code, but no single
+          strategy dominated.</li>
+      </ul>
+
+      <h2>Conclusions</h2>
+      <p>
+        By combining static analysis with LLM refactoring, it is feasible to detect and fix
+        green anti-patterns automatically. Each generated code variant significantly decreased
+        energy consumption. While multiple prompting techniques proved effective, future work
+        could investigate more advanced pipeline stages (handling multi-file patterns, rollback
+        mechanisms, or continuous integration) and apply these methods at scale in real projects.
+      </p>
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N222GS69');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writespace</title>
+</head>
+
+<body>
+  <main style="max-width: 500px; margin: auto; padding: 20px">
+    <a href="../../projects.html">Back to home</a>
+
+    <h1>Writespace</h1>
+    <a href="https://github.com/saifrashed/writespace" target="_blank">See repository</a>
+
+    <a href="./presentation.pdf" target="_blank">Presentation</a>
+    <section>
+      <p>
+        Writespace is a writing tool designed to improve the learning experience for students in the field of scientific
+        writing. With this platform the process of writing and revising assignments, is made more
+        engaging, both for teachers and students.
+      </p>
+
+      <h2>Kickin' it off</h2>
+      <p>
+        The goal was to organize ourselves, a diverse team of 11 people, in a functional DevOps team, practicing Agile
+        principles.
+      </p>
+
+      <figure>
+        <img src="./people.png" width="100%" />
+        <figcaption style="text-align: center;"><b>Figure 1:</b> Meet the team</figcaption>
+      </figure>
+
+      <p>
+        We decided to divide the team into a front-end and back-end group. There was a Git master who acted as the
+        scrum master, along with a lead for the front-end and back-end groups. Each group member was chosen by
+        preferences, and leads were chosen according to their experience.
+      </p>
+
+
+
+      <figure>
+        <img src="./team.png" width="100%" />
+        <figcaption style="text-align: center;"><b>Figure 2:</b> Final team structure</figcaption>
+      </figure>
+
+
+      <p>
+        After deciding on the teams, we continued to the initial brainstorm session, especially since we had only a few
+        weeks to build the solution. During this session, we tried to make sense of it all: What do front-end, back-end,
+        and DevOps mean, and how do different platforms and technologies fit into this picture? Where do we agree and
+        disagree on?
+      </p>
+
+      <figure>
+        <img src="./brainstorm.png" width="100%" />
+        <figcaption style="text-align: center;"><b>Figure 3:</b> Brainstorm session</figcaption>
+      </figure>
+
+      <h2>Gamification</h2>
+      <p>
+        Writespace gamifies by adding an element of fun and motivation to the learning process. Gamification elements
+        are selected from a wide variety of sources. Students
+        can earn points, badges, or rewards based on their progress, quality of writing, and adherence to assignment
+        guidelines.
+
+      <figure>
+        <img src="./screens.png" width="100%" />
+        <figcaption style="text-align: center;"><b>Figure 4:</b> Screens in the app</figcaption>
+      </figure>
+
+      This gamified approach encourages healthy competition among students and boosts their engagement and commitment
+      to the task.
+      </p>
+
+      <h2>Target audience</h2>
+      <p>
+        Writespace is a writing tool developed to improve the scientific writing experience for students. The platform
+        tackles assignment drafting and revision, applying techniques to improve engagement and efficiency for both
+        students and teachers.
+      </p>
+
+      <h2>Key requirements</h2>
+      <ul>
+        <li><strong>Badge System:</strong> Students earn badges for participation and achievement in writing exercises
+          and assignments.</li>
+        <li><strong>Interactive Quizzes:</strong> Writing skill quizzes help students improve and provide
+          opportunities
+          to earn badges.</li>
+        <li><strong>Teacher Interaction:</strong> Teachers grade assignments, provide feedback, and assign badges to
+          recognize student progress.</li>
+        <li><strong>Canvas Integration:</strong> Writespace integrates with Canvas, ensuring a familiar environment
+          for
+          students and educators.</li>
+      </ul>
+
+      <h2>Technical architecture</h2>
+
+      <figure>
+        <img src="./architecture.png" width="100%" />
+      </figure>
+
+      <p>The system consists of three main components: client, service, and model. The client fetches data and
+        displays
+        it in the user interface. The service handles business logic. The model defines the underlying data structure.
+      </p>
+
+      <h2>Database Diagram</h2>
+
+      <figure style="text-align: center;">
+        <img src="./database.png" width="100%" />
+      </figure>
+
+      <p>
+        The model primarily follows this entity relationship diagram. Certain elements are excluded, as MongoDB
+        allows document storage without separate tables. This structure was used to develop the API and does not include
+        Canvas data.
+      </p>
+
+      <h2>Deployment Strategy</h2>
+
+      <figure>
+        <img src="./deployment.png" width="100%" />
+      </figure>
+
+      <p>The system requires three servers for deployment: a Node.js server for hosting the Next.js client, a separate
+        Express server for the API, and a MongoDB server for the database. Next.js runs a Node.js instance already, so
+        why not build the API in there? We decided on a seperate API and reserve Next.js for UI only.</p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Writespace successfully improves the scientific writing experience by integrating engaging gamification
+        elements that motivate students through badges and interactive quizzes. The university concurs, awarding a final
+        grade of 9.
+      </p>
+
+    </section>
+  </main>
+</body>
+
+</html>

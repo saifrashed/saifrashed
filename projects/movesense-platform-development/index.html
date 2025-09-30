@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N222GS69');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movesense platform development</title>
+</head>
+
+<body>
+  <main style="max-width: 500px; margin: auto; padding: 20px">
+    <a href="../../projects.html">Back to home</a>
+
+    <h1>Movesense platform development</h1>
+    <a href="https://apps.apple.com/nl/app/delta-for-athlete-metrics/id6503063210" target="_blank">View in App store</a>
+    <a href="mailto:info@oufaska.com" target="_blank">Send email</a>
+    <a target="_blank" href="../../bio.html">Bio</a>
+    <section>
+      <p>
+
+        Delta Sport Innovation offers products and services in the field of sports and physical activity. They
+        approached me with a request to design, implement, test, and release their Movesense-based mobile athlete
+        activity tracking system.
+      </p>
+
+      <h2>Requirements</h2>
+      <p>
+        After numerous meetings, brainstorming sessions, and calls, we established a shared mental model for the
+        solution's design. Movesense sensors can be used across various domains, such as medical, healthcare, and
+        fitness. In this particular case, we concentrated on sports and fitness, using relevant formulas, metrics,
+        and literature to develop the list of requirements. Once the list was finalized, we continued to the development
+        phase.
+      </p>
+
+      <h2>App</h2>
+      <p>
+        Using Flutter, I developed both iOS and Android builds from a single codebase. Based on the requirements, the
+        screens were designed and iteratively built. Features were implemented using an agile approach in two-week
+        sprints, ensuring the client received a releasable MVP version after each sprint. Typically, sprints are
+        conducted with teams using SCRUM, but this approach is equally effective for collaboration between a developer
+        and a client, as it organizes the project efficiently.
+      </p>
+
+      <figure>
+        <img src="./screens.png" width="100%" />
+        <figcaption style="text-align: center;"><b>Figure 1:</b> Base screens</figcaption>
+      </figure>
+
+      <p>
+        Movesense offers a plugin for Flutter allowing to client app to connect to the sensors over
+        bluetooth, requests to be sent from the client app to the sensors, also subscribe to values recorded by the
+        specific metrics. However, there are many caveats in developing for these sensors, and Movesense documents well,
+        but doesn't disclose all these issues.
+      </p>
+
+      <h2>Firmware</h2>
+      <p>
+        The Movesense documentation contains a diagram showing how the firmware, located on the sensor itself, and the
+        client interact. The design of any application on the Movesense platform must take these components, as well as
+        Bluetooth transmission, into account.
+      </p>
+
+      <figure>
+        <img src="./architecture.png" width="100%" />
+        <figcaption style="text-align: center;"><b>Figure 2:</b> The left-hand side shows the firmware.</figcaption>
+      </figure>
+
+      <p>
+        The platform allows the underlying base firmware to be updated while keeping the custom-built software intact.
+        This is possible due to the use of REST interfaces, which hide any implementation details. The team also made a
+        variety of of sample apps showcasing the capabilities of the sensor.
+      </p>
+
+
+      <h2>Let's get in touch</h2>
+      <p>
+        Having worked with the platform and gone through the process of releasing an app, I can share some useful
+        insights. Additionally, I am available for new projects. <a href="mailto:info@oufaska.com" target="_blank">Send
+          me an email</a>, and
+        let's schedule a call, without obligation.
+      </p>
+
+
+      <h2>Sources</h2>
+      <ol>
+        <li><a href="https://www.movesense.com/">Movesense</a></li>
+        <li><a href="https://bitbucket.org/movesense/workspace/projects/MOVC">Movesense Community Repository</a></li>
+        <li><a href="https://pub.dev/packages/mdsflutter">Movesense Flutter plugin</a></li>
+        <li><a href="https://www.movesense.com/docs/esw/getting_started/">Firmware development docs</a></li>
+        <li><a href="https://bitbucket.org/movesense/movesense-device-lib/src/master/samples">Sample firmware</a></li>
+      </ol>
+    </section>
+  </main>
+</body>
+
+</html>

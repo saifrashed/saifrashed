@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N222GS69');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DupliScanPro</title>
+</head>
+
+<body>
+  <main style="max-width: 500px; margin: auto; padding: 20px">
+    <a href="../../projects.html">Back to home</a>
+
+    <h1>DupliScanPro</h1>
+    <a href="https://github.com/saifrashed/software-evolution" target="_blank">See repository</a>
+    <section>
+      <p>
+        During my master at the University of Amsterdam, I looked into the issue of <strong>code
+          duplication</strong>, a phenomenon that quietly hampers software maintainability. As part of the <em>Software
+          Evolution</em> course, I developed <strong>DupliScanPro</strong>, a tool to detect code
+        clones.
+      </p>
+
+
+      <h2>The Course</h2>
+      <p>
+        The <em>Software Evolution</em> course looks at change in codebases across time, and
+        how we as engineers can help them stay healthy over years and even decades. Clone detection stood out as a core
+        aspect, because redundant code compounds technical debt and makes future changes increasingly problematic.
+      </p>
+
+
+
+      <h2>Challenges</h2>
+      <p>
+        Spotting an exact copy-paste is one thing, but what about code that’s nearly the same except for a name change
+        or swapped literal? The goal with DupliScanPro was to find both <strong>Type I clones</strong> (exact matches)
+        and <strong>Type II clones</strong> (structurally similar but with superficial changes in identifiers or
+        literals).
+      </p>
+      <p>
+        The analysis of the programming language is done algoritmically, using the <a
+          href="https://www.rascal-mpl.org/">Rascal</a> meta programming language. The
+        detection was built around the Abstract
+        Syntax Tree (AST) data structure. This data structure represents the code at an higher level of abstraction, and
+        therefore easier to work with, relieving us from memory expensive string operations.
+      </p>
+
+      <h2>How it works</h2>
+      <p>
+        Two algorithms have been implemented. The second sequence based algorithm is more powerful then the first.
+      </p>
+      <ul>
+        <li>
+          <strong>Basic (Type I) Algorithm:</strong> Quickly detects exact matches by hashing and efficiently comparing
+          structural subtrees.
+        </li>
+        <li>
+          <strong>Sequence (Type I &amp; II) Algorithm:</strong> Finds “near-miss” clones, normalizing code to ignore
+          differences in variable names and literals, and compares code sequences within the AST.
+        </li>
+      </ul>
+
+      <p>
+        The focus was put on <u>scalability</u> and <u>performance</u>, which was tested on larger, real-world Java
+        projects.
+      </p>
+
+      <h2>Visualization</h2>
+      <p>
+        The frontend was built with React, Tailwind CSS, and ECharts, inspired by cognitive research from the
+        course. The goal was to minimize the mental workload for whoever is reviewing the results.
+      </p>
+
+      <ul>
+        <li>
+          <strong>Chord diagrams:</strong> Map out code duplication relationships between files visually.
+        </li>
+        <li>
+          <strong>Side-by-side comparison:</strong> Makes it easy to spot exactly how clones differ.
+        </li>
+        <li>
+          <strong>Statistics summary:</strong> Provides an instant “health report” for the codebase’s duplication.
+        </li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>
+        There’s lots more to do, especially around making the visualizations more interactive and
+        scalable, but this project was a good first step. Huge thanks to
+        <a href="https://ltvanbinsbergen.nl/">Dr. L.T.
+          (Thomas) van Binsbergen
+        </a>
+        for your lectures and my teammate Stephen Kwan for the collaboration.
+      </p>
+
+    </section>
+  </main>
+</body>
+
+</html>

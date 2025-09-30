@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N222GS69');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mainframe testing stub</title>
+</head>
+
+<body>
+  <main style="max-width: 500px; margin: auto; padding: 20px">
+    <a href="../../projects.html">Back to home</a>
+
+    <h1>Mainframe testing stub (bachelor thesis)</h1>
+    <b>* Due to the thesis's confidential nature, it cannot be explained in detail. </b>
+    <figure>
+      <img src="./cover.png" alt="Rabobank Winthontlaan" width="100%" />
+      <figcaption style="text-align: center;"><b>Figure 1:</b> Rabobank Winthontlaan, Utrecht</figcaption>
+    </figure>
+
+    <section>
+      <p>
+        In order to manage a high volume of booking requests, an organization has developed a payment-processing
+        architecture over time, primarily running on an established mainframe environment. Within this architecture, a
+        particular team oversees multiple systems, including one responsible for validating and routing requests to
+        different downstream services. One key component of this system handles larger batches of booking requests.
+      </p>
+
+      <p>
+        These batches are then sent to an external service for further processing. Since that external service is
+        managed by a separate team, the testing process can be slow and sometimes inconsistent, due to data constraints
+        and the need for cross-team coordination. To address this challenge, a stub has been proposed to replace the
+        external service during testing, allowing for faster and more controlled validation of the batch-booking
+        functionality. The guiding question is how to implement a stub for isolating the batch-processing system within
+        the mainframe environment, without requiring communication with the actual external service.
+      </p>
+
+      <p>
+        To answer this question, research was undertaken regarding the mainframe technologies, details of the
+        batch-processing system, and the nature of data exchange with the external service. Qualitative interviews were
+        also conducted with the test and business analysis teams to understand the requirements and motivations. Based
+        on these findings, a stub was designed, implemented, and subsequently tested to verify that it can effectively
+        simulate all necessary external interactions.
+      </p>
+  </main>
+</body>
+
+</html>

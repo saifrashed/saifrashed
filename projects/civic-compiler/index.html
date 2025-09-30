@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N222GS69');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CiviC Compiler</title>
+</head>
+
+<body>
+  <main style="max-width: 500px; margin: auto; padding: 20px">
+    <a href="../../projects.html">Back to home</a>
+
+    <h1>CiviC Compiler</h1>
+    <a href="https://github.com/saifrashed/CiviC-compiler" target="_blank">See repository</a>
+    <a href="./compiler-report.pdf" target="_blank">Download full report</a>
+    <a href="./civic-manual.pdf" target="_blank">CiviC Manual</a>
+
+    <section>
+      <p>
+        This report outlines my design and implementation of a compiler for CiviC, a C-like language designed by the
+        University of Amsterdam for the course Compiler Construction. The focus was on core language features, including
+        support for arrays, multi-dimensional arrays, and nested functions.
+      </p>
+
+      <figure>
+        <img src="./overview.png" width="100%" />
+
+        <figcaption style="text-align: center;"><b>Figure 1:</b> Compiler architecture</figcaption>
+      </figure>
+
+      <h2>Lexicographic and Syntactic Analysis</h2>
+      <p>
+        The process began with lexicographic analysis using Flex to define tokenization rules. Next, I conducted
+        syntactic analysis, building grammars for constants, expressions, statements, and function
+        definitions. Initial ambiguities and conflicts, particularly with variable declarations, were resolved by
+        refining the approach.
+      </p>
+
+
+      <h2>Semantic Analysis</h2>
+      <p>
+        During semantic analysis, I created a symbol table data structure for type checking and declaration management.
+        Traversals captured all declarations while maintaining checks for variable scopes. The symbol table allowed name
+        binding through systematic lookups in the symbol table, ensuring all variables were correctly defined and
+        accessible.
+      </p>
+
+      <h2>Code Generation</h2>
+      <p>
+        In the code generation phase, I transformed the AST and implemented output strategies in preparation for
+        assembly generation. By traversing the
+        grammar, I produced assembly code compatible with the CiviCC VM.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Due to strict deadlines and overwhelming work, the importance of planning and prioritization could not
+        be understated.
+        The project began with improvisation, but once the intuition seeped in, it became systematic, particularly
+        during semantic analysis.
+      </p>
+      <p>
+        There were some unresolved challenges, especially with array initialization and function overloading, however
+        the project was a success in that it contained the core features, but more importantly provided valuable
+        learning experience. The net result is a functional compiler and a solidified understanding of compiler design.
+      </p>
+    </section>
+  </main>
+</body>
+
+</html>
